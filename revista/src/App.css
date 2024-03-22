@@ -247,7 +247,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     to bottom,
     rgba(25, 25, 22, 0.5),
     rgba(9, 9, 9, 0.5)
-  ), url("./assets/img/universo6.png");
+  ), url("");
   background-color: var(--sixth-color);
 }
 .banner .tagline {
@@ -554,7 +554,7 @@ margin: 15px;
 /************ Contact ************/
 .contact {
   padding: 30px 0 100px 0;
-  background-image: url("./assets/img/redes2.jpg");
+  background-image: url("");
   background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
