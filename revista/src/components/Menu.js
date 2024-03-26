@@ -5,8 +5,15 @@ export const Menu = () => {
     
     return(
         <div >
-           <div className='menu-div'></div>
-           <img src={fondo} alt='' className='fondo-menu'></img>
+           <div className='menu-div'>
+            <h3 className='text-light'>Indice</h3>
+            <div className='themes'>
+                <div className='tema1'></div>
+                <div className='tema2'></div>
+                <div className='tema3'></div>
+            </div>
+           </div>
+
         </div>
     )
 }
