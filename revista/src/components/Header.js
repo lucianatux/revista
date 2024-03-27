@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <div className="header">
       <div className="first-header">
-        <img src={logo} className="img-fluid logo" alt="Logo" />
+        <img src={logo} className="img-fluid mx-5 mt-2 logo" alt="Logo" />
         <p className="phrase">La atención yace en nosotros</p>
         <span className="header-text">
           <div className="social-icon">

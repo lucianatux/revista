@@ -154,7 +154,7 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   height: 100vh;
   background-image:linear-gradient(
     120deg,
-    #0000005a 0%,
+    #4c4c4c5a 0%,
     #0d0426bb 100%
   ),   url("../src/assets/img/fondo8.jpg");
   background-size: cover; 
@@ -166,14 +166,21 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   height: 120px;
   background-color: #176589;
   margin: 5% 0;
-  border-radius: 20px;
+  border-radius: 30px;
   background-size: cover; 
   box-shadow: 0 0 10px #000;
-  border: 3px solid #447;
+  animation: resplandor 2s infinite alternate; /* 2s es la duración de cada ciclo */
+}
+@keyframes resplandor {
+  0% {
+    box-shadow: 0 0 10px black;
+  }
+  100% {
+    box-shadow: 0 0 10px white;
+  }
 }
 .tema1{
 background-image: url("../src/assets/img/tema1.jpeg");
-
 }
 .tema2{
   background-image: url("../src/assets/img/tema2.jpeg");
