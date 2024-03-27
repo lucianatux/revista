@@ -52,7 +52,6 @@ export const Header = () => {
           </Navbar.Collapse>
         </Navbar>
       </div>
-      <hr></hr>
     </div>
   );
 };
