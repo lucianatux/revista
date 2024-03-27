@@ -173,11 +173,18 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 /************ Home Css ************/
 .section-app{
   padding-top: 230px;
-  padding-left: 5%;
   position: relative;
   z-index: 0;
 }
+.indice{
+  padding-bottom: 20px;
+}
 .themes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.theme{
   width: 120px;
   height: 120px;
   margin: 10px 0;
@@ -210,22 +217,20 @@ background-image: url("../src/assets/img/tema1.jpg");
 
 .titles{
 height: 120px;
-width: auto;
 margin: 10px 0;
 padding-top: 40px;
 padding-left: 30px;
 font-size: larger;
+text-align: left;
 }
 @media (max-width:767px) {
-	.titles {
-		font-size:medium;
+	.titles, .indice{
+    text-align: center;
+    padding-top: 0px;
+    height: 80px;
 	}
 }
-@media (max-width:732px) {
-  .titles {
-    font-size:medium;
-  }
-}
+
 /* 
 linear-gradient(
     120deg,
