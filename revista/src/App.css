@@ -98,6 +98,20 @@ input:focus, textarea:focus, select:focus {
   min-width: 80px;
   max-width: 200px;
   margin-left: 20px;
+ /* animation: eye-movement 3s infinite;*/
+}
+@keyframes eye-movement {
+  0% {
+    box-shadow: 0 0 10px black;
+  }
+  50%{
+    scale: 0.9;
+
+    /*box-shadow: 0 0 5px white;*/
+  }
+  100% {
+    box-shadow: 0 0 10px black;
+  }
 }
 .title{
   font-size: small;
@@ -187,19 +201,19 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 .theme{
   width: 120px;
   height: 120px;
-  margin: 10px 0;
+  margin: 15px 0;
   border-radius: 20px;
   background-size: cover; 
   box-shadow: 0 0 10px #000;
-  animation: resplandor 3s infinite; 
+  /*animation: resplandor 3s infinite; */
 }
 @keyframes resplandor {
   0% {
     box-shadow: 0 0 10px black;
   }
   50%{
-    scale: 0.99;
-    /*box-shadow: 0 0 5px white;*/
+    box-shadow: 0 0 10px white;
+    border-radius: 30px;
   }
   100% {
     box-shadow: 0 0 10px black;

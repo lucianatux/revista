@@ -30,7 +30,22 @@ export const Home = () => {
           "El consumismo y la caída del sueño americano"
         </div>
       </div>
-
+      <div className="row">
+        <div className="themes col-sm-12 col-md-3 ">
+          <div className=" theme tema3"></div>
+        </div>
+        <div className="titles col-sm-12 col-md-9 ">
+          "Juego Descubre tu biotipo"
+        </div>
+      </div>
+      <div className="row">
+        <div className="themes col-sm-12 col-md-3 ">
+          <div className=" theme tema3"></div>
+        </div>
+        <div className="titles col-sm-12 col-md-9 ">
+          "Agradecimientos"
+        </div>
+      </div>
     </div>
   );
 };
