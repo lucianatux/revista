@@ -4,6 +4,7 @@ import './App.css';
 import {Header} from './components/Header';
 import {Menu} from './components/Menu';
 import {Home} from './components/Home';
+import {One} from './components/One';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <Header />
       <Menu />
      <Home />
+     <One/>
     </div>
   );
 }

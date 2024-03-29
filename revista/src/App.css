@@ -100,6 +100,12 @@ input:focus, textarea:focus, select:focus {
   margin-left: 20px;
  /* animation: eye-movement 3s infinite;*/
 }
+/*
+.logo:hover{
+  
+}
+*/
+
 @keyframes eye-movement {
   0% {
     box-shadow: 0 0 10px black;
@@ -244,7 +250,21 @@ text-align: left;
     height: 80px;
 	}
 }
-
+/************ Articles Css ************/
+.article-div{
+  padding: 10%;
+  background: #0006;
+}
+.article-p{
+  font-size: 22px;
+  line-height: 1.5;
+}
+.article-img{
+  width: 250px;
+  float:left;
+  border-radius: 20px;
+  padding: 10px;
+}
 /* 
 linear-gradient(
     120deg,
