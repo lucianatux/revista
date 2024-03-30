@@ -98,7 +98,7 @@ input:focus, textarea:focus, select:focus {
   min-width: 80px;
   max-width: 200px;
   margin-left: 20px;
- /* animation: eye-movement 3s infinite;*/
+ /*animation: eye-movement 3s infinite;*/
 }
 /*
 .logo:hover{
@@ -111,8 +111,8 @@ input:focus, textarea:focus, select:focus {
     box-shadow: 0 0 10px black;
   }
   50%{
-    scale: 0.9;
-
+    
+scale:1.1;
     /*box-shadow: 0 0 5px white;*/
   }
   100% {
@@ -258,6 +258,7 @@ text-align: left;
 .article-p{
   font-size: 22px;
   line-height: 1.5;
+  padding: 20px 0;
 }
 .article-img{
   width: 250px;

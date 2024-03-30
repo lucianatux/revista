@@ -5,6 +5,7 @@ import {Header} from './components/Header';
 import {Menu} from './components/Menu';
 import {Home} from './components/Home';
 import {One} from './components/One';
+import {Two} from './components/Two';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Menu />
      <Home />
      <One/>
+     <Two/>
     </div>
   );
 }
