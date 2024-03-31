@@ -1,70 +1,49 @@
-import React, { useState, useEffect } from 'react';
-import memory1 from '../assets/img/kitchen.png';
-import memory2 from '../assets/img/living.png';
-import memory3 from '../assets/img/forest.png';
-import memory4 from '../assets/img/park.png';
+import memory1 from '../assets/img/mem1.png';
+import memory2 from '../assets/img/mem2.png';
+import memory3 from '../assets/img/mem3.png';
+import memory4 from '../assets/img/mem4.png';
+import memory5 from '../assets/img/mem5.png';
+import memory6 from '../assets/img/mem6.png';
+import memory7 from '../assets/img/mem7.png';
+import memory8 from '../assets/img/mem8.png';
+import memory9 from '../assets/img/mem9.png';
+import memory10 from '../assets/img/mem10.png';
+import memory11 from '../assets/img/mem11.png';
+import memory12 from '../assets/img/mem12.png';
+import backCard from '../assets/img/fondo1.jpg';
 
 export const MemoryGame = () => {
-  const [cards, setCards] = useState([]);
-  const [flippedCards, setFlippedCards] = useState([]);
-  const [matchedCards, setMatchedCards] = useState([]);
-
-  // Define tus tarjetas aquí, por ejemplo, una matriz de objetos con id y src de la imagen
-  const cardArray = [
-    { id: 1, src: memory1 },
-    { id: 2, src: memory2 },
-    { id: 3, src: memory3 },
-    { id: 4, src: memory4 },
-    // Agrega más tarjetas según sea necesario
+   // Array con las rutas de las imágenes
+   const images = [
+    memory1, memory2, memory3, memory4,
+    memory5, memory6, memory7, memory8,
+    memory9, memory10, memory11, memory12
   ];
 
-  // Duplica las tarjetas para hacer los pares
-  const initializeCards = () => {
-    const duplicatedCards = [...cardArray, ...cardArray];
-    // Mezcla las cartas
-    duplicatedCards.sort(() => Math.random() - 0.5);
-    setCards(duplicatedCards);
+  // Función para obtener una matriz aleatoria de índices para las imágenes
+  const shuffleImages = () => {
+    const shuffledIndexes = [...Array(12).keys()].sort(() => Math.random() - 0.5);
+    return [...shuffledIndexes, ...shuffledIndexes]; // Duplicamos los índices para emparejar cada imagen
   };
 
-  // Función para manejar el clic de una tarjeta
-  const handleCardClick = (id) => {
-    // Evita hacer clic en una tarjeta ya volteada o emparejada
-    if (flippedCards.includes(id) || matchedCards.includes(id)) return;
-
-    setFlippedCards([...flippedCards, id]);
+  // Renderizar las celdas de la tabla
+  const renderCells = () => {
+    const shuffledIndexes = shuffleImages();
+    return shuffledIndexes.map((index, key) => (
+      <div key={key} className="memory-cell">
+        <img src={images[index]} alt={`Memory Card ${index}`} />
+      </div>
+    ));
   };
 
-  useEffect(() => {
-    // Si hay dos tarjetas volteadas
-    if (flippedCards.length === 2) {
-      // Comprueba si las dos tarjetas coinciden
-      if (cards[flippedCards[0]].src === cards[flippedCards[1]].src) {
-        setMatchedCards([...matchedCards, ...flippedCards]);
-      }
-      // Voltea las tarjetas después de un breve retraso
-      setTimeout(() => {
-        setFlippedCards([]);
-      }, 1000);
-    }
-  }, [flippedCards]);
-
-  useEffect(() => {
-    // Inicializa las tarjetas cuando el componente se monta
-    initializeCards();
-  }, []);
-
+  
   return (
     <div className="memory-game">
-      {cards.map((card, index) => (
-        <div
-          key={index}
-          className={`memory-card ${flippedCards.includes(index) || matchedCards.includes(index) ? 'flip' : ''}`}
-          onClick={() => handleCardClick(index)}
-        >
-          <img className="front-face" src={card.src} alt="Card" />
-          <img className="back-face" src="img/back.jpg" alt="Back" />
-        </div>
-      ))}
+       <div className="memory-grid">{renderCells()}</div>S
+       
     </div>
   );
+  
+
+
 };

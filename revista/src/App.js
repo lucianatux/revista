@@ -6,6 +6,7 @@ import {Menu} from './components/Menu';
 import {Home} from './components/Home';
 import {One} from './components/One';
 import {Two} from './components/Two';
+import { MemoryGame } from './components/MemoryGame';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
      <Home />
      <One/>
      <Two/>
+     <MemoryGame />
     </div>
   );
 }
