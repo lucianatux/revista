@@ -22,6 +22,7 @@ export const MemoryGame = () => {
 
   const movements= 0;
   const hits = 0;
+  const uncoveredCards = 0;
 
   // Función para duplicar los elementos del array y repetirlos una vez
   const doubleImages = (arr) => {
