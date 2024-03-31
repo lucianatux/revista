@@ -272,14 +272,15 @@ text-align: left;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
 }
 
 .memory-grid {
   display: grid;
   grid-template-columns: repeat(6, 80px);
   grid-template-rows: repeat(4, 80px);
-  gap: 10px; /* Espacio entre celdas */
+  gap: 10px; 
+  margin: 50px auto;
+
 }
 
 .memory-cell {
@@ -299,6 +300,7 @@ text-align: left;
   object-fit: cover; 
   display: none;
 }
+
 
 
 
