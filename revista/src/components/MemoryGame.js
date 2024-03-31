@@ -10,7 +10,7 @@ import memory9 from '../assets/img/mem9.png';
 import memory10 from '../assets/img/mem10.png';
 import memory11 from '../assets/img/mem11.png';
 import memory12 from '../assets/img/mem12.png';
-import backCard from '../assets/img/fondo1.jpg';
+/*import backCard from '../assets/img/fondo1.jpg';*/
 
 export const MemoryGame = () => {
    // Array con las rutas de las imágenes
@@ -20,28 +20,51 @@ export const MemoryGame = () => {
     memory9, memory10, memory11, memory12
   ];
 
-  // Función para obtener una matriz aleatoria de índices para las imágenes
-  const shuffleImages = () => {
-    const shuffledIndexes = [...Array(12).keys()].sort(() => Math.random() - 0.5);
-    return [...shuffledIndexes, ...shuffledIndexes]; // Duplicamos los índices para emparejar cada imagen
+  const movements= 0;
+  const hits = 0;
+
+  // Función para duplicar los elementos del array y repetirlos una vez
+  const doubleImages = (arr) => {
+    return arr.flatMap(image => [image, image]);
   };
 
-  // Renderizar las celdas de la tabla
-  const renderCells = () => {
-    const shuffledIndexes = shuffleImages();
-    return shuffledIndexes.map((index, key) => (
-      <div key={key} className="memory-cell">
-        <img src={images[index]} alt={`Memory Card ${index}`} />
-      </div>
-    ));
-  };
+// Función para desordenar un array utilizando el algoritmo de Fisher-Yates
+const shuffleArray = (array) => {
+  const newArray = [...array]; 
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1)); 
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]]; 
+  }
+  return newArray; 
+};
 
+const doubledArray = doubleImages(images);
+const shuffledArray = shuffleArray(doubledArray);
+console.log(shuffledArray);
+
+// Si shuffledArray tiene 24 elementos, llenar la tabla con cada elemento
+let content = null;
+if (shuffledArray.length === 24) {
+  content = shuffledArray.map((image, index) => (
+    <div key={index} className="memory-cell">
+      <img src={image} alt={`Memory Card ${index}`} />
+    </div>
+  ));
+} else {
+  content = <p>El array no tiene 24 elementos.</p>;
+}
   
   return (
+    <div>
     <div className="memory-game">
-       <div className="memory-grid">{renderCells()}</div>S
-       
+             <div className="memory-grid">{content}</div>
     </div>
+    <div className="d-flex justify-content-center">
+    <h4>Movements:</h4>
+     <h4>Hits:</h4>
+    </div>
+     
+     </div>
   );
   
 

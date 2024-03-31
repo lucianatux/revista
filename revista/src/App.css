@@ -271,6 +271,8 @@ text-align: left;
 .memory-game {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
 
 .memory-grid {
@@ -284,13 +286,20 @@ text-align: left;
   width: 80px;
   height: 80px;
   border: 1px solid white;
+  border-radius: 10px;
+  background-image: url('../src/assets/img/fondo13.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: relative;
 }
 
 .memory-cell img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Para asegurarse de que la imagen se ajuste al tamaño de la celda */
+  object-fit: cover; 
+  display: none;
 }
+
 
 
 
