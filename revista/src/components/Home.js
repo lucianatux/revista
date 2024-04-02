@@ -13,7 +13,7 @@ export const Home = () => {
         </div>
         
         <div className="titles col-sm-12 col-md-9">
-          "El cuerpo es nuestra mayor herramienta"
+          El cuerpo es nuestra mayor herramienta
         </div>
       </div></a>
       <a href="#two" className="text-light">
@@ -22,7 +22,7 @@ export const Home = () => {
           <div className=" theme tema2"></div>
         </div>
         <div className="titles col-sm-12 col-md-9">
-        "Explorando Nuevas Formas de Organización y Vida"
+        Explorando Nuevas Formas de Organización y Vida
         </div>
       </div>
       </a>
@@ -31,7 +31,7 @@ export const Home = () => {
           <div className=" theme tema3"></div>
         </div>
         <div className="titles col-sm-12 col-md-9 ">
-          "El consumismo y la caída del sueño americano"
+          El consumismo y la caída del sueño americano
         </div>
       </div>
       <a href="#game" className="text-light">
@@ -40,7 +40,7 @@ export const Home = () => {
           <div className=" theme tema4"></div>
         </div>
         <div className="titles col-sm-12 col-md-9 ">
-          "Juego de la Memoria"
+          Juego de la Memoria
         </div>
       </div>
       </a>
@@ -49,7 +49,7 @@ export const Home = () => {
           <div className=" theme tema3"></div>
         </div>
         <div className="titles col-sm-12 col-md-9 ">
-          "Agradecimientos"
+          Agradecimientos
         </div>
       </div>
     </div>
