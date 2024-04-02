@@ -34,14 +34,16 @@ export const Home = () => {
           "El consumismo y la caída del sueño americano"
         </div>
       </div>
+      <a href="#game" className="text-light">
       <div className="row">
         <div className="themes col-sm-12 col-md-3 ">
           <div className=" theme tema3"></div>
         </div>
         <div className="titles col-sm-12 col-md-9 ">
-          "Juego Descubre tu biotipo"
+          "Juego de la Memoria"
         </div>
       </div>
+      </a>
       <div className="row">
         <div className="themes col-sm-12 col-md-3 ">
           <div className=" theme tema3"></div>

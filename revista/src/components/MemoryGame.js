@@ -1,115 +1,113 @@
-import { useState } from "react";
-import memory1 from "../assets/img/mem1.png";
-import memory2 from "../assets/img/mem2.png";
-import memory3 from "../assets/img/mem3.png";
-import memory4 from "../assets/img/mem4.png";
-import memory5 from "../assets/img/mem5.png";
-import memory6 from "../assets/img/mem6.png";
-import memory7 from "../assets/img/mem7.png";
-import memory8 from "../assets/img/mem8.png";
-import memory9 from "../assets/img/mem9.png";
-import memory10 from "../assets/img/mem10.png";
-import memory11 from "../assets/img/mem11.png";
-import memory12 from "../assets/img/mem12.png";
+import { useState, useEffect } from "react";
+import { SingleCard } from "./SingleCard";
+import memory1 from "../assets/img/game/celticknot.jpg";
+import memory2 from "../assets/img/game/cuboctaedro.jpg";
+import memory3 from "../assets/img/game/dode.jpg";
+import memory4 from "../assets/img/game/enea.jpg";
+import memory5 from "../assets/img/game/flowerlife.jpg";
+import memory6 from "../assets/img/game/infinity.jpg";
+import memory7 from "../assets/img/game/torus.jpg";
+import memory8 from "../assets/img/game/seedlife.jpg";
+import memory9 from "../assets/img/game/stone.jpg";
+import memory10 from "../assets/img/game/treelife.jpg";
+import memory11 from "../assets/img/game/triskel.jpg";
+import memory12 from "../assets/img/game/yantra.jpg";
 
-const images = [
-  memory1,
-  memory2,
-  memory3,
-  memory4,
-  memory5,
-  memory6,
-  memory7,
-  memory8,
-  memory9,
-  memory10,
-  memory11,
-  memory12,
+const cardImages = [
+  { src: memory1},
+  { src: memory2 },
+  { src: memory3 },
+  { src: memory4 },
+  { src: memory5 },
+  { src: memory6 },
+  { src: memory7 },
+  { src: memory8 },
+  { src: memory9 },
+  { src: memory10 },
+  { src: memory11 },
+  { src: memory12 },
 ];
 
-// Función para duplicar los elementos del array y repetirlos una vez
-const doubleImages = (arr) => {
-  return arr.flatMap((image) => [image, image]);
-};
-
-// Función para desordenar un array utilizando el algoritmo de Fisher-Yates
-const shuffleArray = (array) => {
-  const newArray = [...array];
-  for (let i = newArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
-  }
-  return newArray;
-};
-
-const shuffledArray = shuffleArray(doubleImages(images));
-
-const MemoryCell = ({ image, handleCellClick }) => (
-  <div className="memory-cell" onClick={() => handleCellClick(image)}>
-    <img src={image} alt="Memory Card" />
-  </div>
-);
-
 export const MemoryGame = () => {
-  const [card01, setCard01] = useState(null);
-  const [card02, setCard02] = useState(null);
+  const [cards, setCards] = useState([]);
+  const [turns, setTurns] = useState(0);
+  const [choiceOne, setChoiceOne] = useState(null);
+  const [choiceTwo, setChoiceTwo] = useState(null);
+  const [disabled, setDisabled] = useState(false);
 
-  let movements = 0;
-  let hits = 0;
-  let uncoveredCards = 0;
-  let firstResult = null;
-  let secondResult = null;
+  //shuffle cards
+  const shuffleCards = () => {
+    const shuffledCards = [...cardImages, ...cardImages]
+      .sort(() => Math.random() - 0.5)
+      .map((card) => ({ ...card, id: Math.random(), matched: false }));
 
-  function buttonRestartAction() {
-    window.location.reload(true);
-  }
-
-  // Si shuffledArray tiene 24 elementos, llenar la tabla con cada elemento
-  let content = null;
-  if (shuffledArray.length === 24) {
-    content = shuffledArray.map((image, index) => (
-      <div
-        key={index}
-        className="memory-cell"
-        onClick={(e) => handleCellClick(image, e)}
-      >
-        <img src={image} alt={`Memory Card ${index}`} />
-      </div>
-    ));
-  } else {
-    content = <p>El array no tiene 24 elementos.</p>;
-  }
-
-  const handleCellClick = (imageSrc, event) => {
-    const cell = event.currentTarget;
-    const imgElement = cell.querySelector("img");
-
-    if (imgElement.style.display === "block") {
-      imgElement.style.display = "none";
-      cell.classList.remove("active");
-    } else {
-      imgElement.style.display = "block";
-      cell.classList.add("active");
-    }
-    if (card01 !== null) {
-      setCard02(imageSrc);
-    } else {
-      setCard01(imageSrc);
-    }
+    setCards(shuffledCards);
+    setTurns(0);
+    setChoiceOne(null);
+    setChoiceTwo(null);
   };
 
+  // handle a choice
+  const handleChoice = (card) => {
+    console.log("card:", card);
+    choiceOne ? setChoiceTwo(card) : setChoiceOne(card);
+  };
+
+  //compare 2 selected cards
+  useEffect(() => {
+    if (choiceOne && choiceTwo) {
+      setDisabled(true);
+      if (choiceOne.src === choiceTwo.src) {
+        setCards((prevCards) => {
+          return prevCards.map((card) => {
+            if (card.src === choiceOne.src) {
+              return { ...card, matched: true };
+            } else{
+              return card;
+            }
+          });
+        });
+        resetTurn();
+      } else {
+        setTimeout(()=>{
+          resetTurn();
+        }, 2000);
+      }
+    }
+  }, [choiceOne, choiceTwo]);
+
+
+  // reset choices and increase turn
+  const resetTurn = () => {
+    setChoiceOne(null);
+    setChoiceTwo(null);
+    setTurns((prevTurns) => prevTurns + 1);
+    setDisabled(false);
+  };
+
+  // start a new game automatically 
+  useEffect(() =>{
+    shuffleCards();
+  },[]);
+
   return (
-    <div>
-      <div className="memory-game">
-        <div className="memory-grid">{content}</div>
+    <div id="game" className="memory-game">
+      <h1 className="game-title">Juego de la Memoria</h1>
+      <button onClick={shuffleCards} className="new-game">
+        Nuevo Juego
+      </button>
+      <div className="card-grid">
+        {cards.map((card) => (
+          <SingleCard 
+            key={card.id} 
+            card={card} 
+            handleChoice={handleChoice} 
+            flipped = {card === choiceOne || card === choiceTwo || card.matched}
+            disabled = {disabled}
+          />
+        ))}
       </div>
-      <div className="d-flex justify-content-center align-items-center">
-        <p className="p-4">Movements: {movements}</p>
-        <p className="p-4">Hits: {hits}</p>
-        <button onClick={buttonRestartAction} className="text-light p-4">
-          Restart
-        </button>
-      </div>
+      <p>Turnos: {turns}</p>
     </div>
   );
 };

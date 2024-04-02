@@ -81,7 +81,7 @@ input:focus, textarea:focus, select:focus {
   background: var(--sixth-color);
   position: fixed;
   width: 100%; 
-  height: 25vh;
+  height: 20vh;
   z-index: 1;
 }
 .first-header, .second-header{
@@ -96,7 +96,7 @@ input:focus, textarea:focus, select:focus {
 }
 .logo{
   min-width: 80px;
-  max-width: 200px;
+  max-width: 120px;
   margin-left: 20px;
  /*animation: eye-movement 3s infinite;*/
 }
@@ -268,10 +268,65 @@ text-align: left;
 }
 
 /************ MemoryGame Css ************/
-.memory-game {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.game-title{
+padding-top: 40px;
+}
+.new-game {
+  background: none;
+  border: 1px solid #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1em;
+}
+.new-game:hover {
+  background: #c23866;
+  color: #fff;
+}
+.memory-game{
+  text-align: center;
+  margin: 50px;
+}
+.card-grid{
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  justify-items: center;
+  max-width: 700px;
+}
+
+@media (max-width:430px) {
+	.card-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+}
+
+.card{
+  position: relative;
+}
+.card img{
+  width: 100%;
+  display: block;
+  border: 2px solid white;
+  border-radius: 6px;
+}
+.card .front {
+  transform: rotateY(90deg);
+  transition: all ease-in 0.2s;
+  position: absolute;
+}
+.flipped .front{
+  transform: rotateY(0deg);
+  transition-delay: 0.2s;
+}
+.card .back{
+  transition: all ease-in 0.2s;
+  transition-delay: 0.2s;
+}
+.flipped .back{
+  transform: rotateY(90deg);
+  transition-delay: 0s;
 }
 
 .memory-grid {
@@ -280,9 +335,7 @@ text-align: left;
   grid-template-rows: repeat(4, 80px);
   gap: 10px; 
   margin: 50px auto;
-
 }
-
 .memory-cell {
   width: 80px;
   height: 80px;
@@ -293,14 +346,12 @@ text-align: left;
   background-repeat: no-repeat; 
   background-position: relative;
 }
-
 .memory-cell img {
   width: 100%;
   height: 100%;
   object-fit: cover; 
   display: none;
 }
-
 
 
 
