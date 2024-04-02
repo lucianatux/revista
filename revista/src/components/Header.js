@@ -1,13 +1,17 @@
 import navIcon5 from "../assets/img/nav-icon5.svg";
 import navIcon4 from "../assets/img/nav-icon4.svg";
 import logo from "../assets/img/ojo9.png";
+import logo2 from "../assets/img/ojo9a.png";
 import { Navbar, Nav } from "react-bootstrap";
 
 export const Header = () => {
   return (
     <div className="header">
       <div className="first-header">
-        <img src={logo} className="img-fluid mx-5 mt-2 logo" alt="Logo" />
+        <div className="logo-container mx-4">
+          <img src={logo} className="logo" alt="Logo" />
+          <img src={logo2} class="logo2" alt="Logo2" />
+        </div>
         <p className="phrase">La atención yace en nosotros</p>
         <span className="header-text">
           <div className="social-icon">
@@ -33,7 +37,10 @@ export const Header = () => {
           Revista digital<span className="mx-2 name">El Ojo Cuántico</span>
         </p>
         <Navbar expand="md">
-          <Navbar.Toggle aria-controls="basic-navbar-nav"  className="bg-body-tertiary mx-5"/>
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            className="bg-body-tertiary mx-5"
+          />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#inicio" className="text-light tabs">

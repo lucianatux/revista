@@ -37,7 +37,7 @@ export const Home = () => {
       <a href="#game" className="text-light">
       <div className="row">
         <div className="themes col-sm-12 col-md-3 ">
-          <div className=" theme tema3"></div>
+          <div className=" theme tema4"></div>
         </div>
         <div className="titles col-sm-12 col-md-9 ">
           "Juego de la Memoria"
