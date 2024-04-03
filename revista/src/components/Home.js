@@ -1,6 +1,6 @@
 export const Home = () => {
   return (
-    <div className="section-app">
+    <div className="section-app" id="inicio">
       <div className="row">
         <div className="themes col-sm-12 col-md-3">
           <h3 className="indice">Indice</h3>
@@ -26,14 +26,16 @@ export const Home = () => {
         </div>
       </div>
       </a>
+      <a href="#three" className="text-light">
       <div className="row">
         <div className="themes col-sm-12 col-md-3 ">
           <div className=" theme tema3"></div>
         </div>
         <div className="titles col-sm-12 col-md-9 ">
-          El consumismo y la caída del sueño americano
+        Una nueva sensibilidad está naciendo
         </div>
       </div>
+      </a>
       <a href="#game" className="text-light">
       <div className="row">
         <div className="themes col-sm-12 col-md-3 ">
@@ -46,7 +48,7 @@ export const Home = () => {
       </a>
       <div className="row">
         <div className="themes col-sm-12 col-md-3 ">
-          <div className=" theme tema3"></div>
+          <div className=" theme tema1"></div>
         </div>
         <div className="titles col-sm-12 col-md-9 ">
           Agradecimientos

@@ -12,7 +12,7 @@ export const One = () => {
           en el desarrollo de nuestro ser. ¿Qué tal si adoptáramos 
           permanentemente la afirmación: "El cuerpo es mi mayor herramienta"? 
           Incluso podríamos ir más lejos al considerarlo nuestra herramienta 
-          "Maestra". Esta idea nos lleva rápidamente a buscar nuestra 
+          "maestra". Esta idea nos lleva rápidamente a buscar nuestra 
           identidad: "si no soy solo mi cuerpo, al menos soy quien lo habita". 
           Y esta nueva percepción nos impulsa a conocerlo y estudiarlo. 
           Esta simple declaración podría transformar radicalmente nuestra
@@ -31,15 +31,15 @@ export const One = () => {
         con nuestras emociones y nuestros pensamientos más elevados. 
         De esta manera, la energía que fluye a través de nuestro cuerpo, 
         nuestra herramienta primordial, se mueve de centro a centro sin
-         obstrucciones energéticas ni mal uso de esta herramienta "Maestra".
+         obstrucciones energéticas ni mal uso de esta herramienta "maestra".
         </p>
         <hr />
         <h4>La Influencia de la Tecnología en Nuestra Percepción del Cuerpo</h4>
         <p className="article-p">
         En la era actual, estamos inmersos en una cultura tecnológica que ha 
         transformado nuestra forma de interactuar con el mundo, incluso con
-         nuestro propio cuerpo. Términos como "dispositivo", "celular", 
-         "batería", "equipos móviles", "carga y descarga", "configuración",
+         nuestro propio cuerpo. Términos como "dispositivo",
+         "batería", "carga y descarga", "configuración",
           "ajuste", etc., han permeado
           nuestra vida cotidiana, desviando nuestra atención de la asombrosa
            complejidad de nuestro ser físico. Sin embargo, esta misma cultura
@@ -50,23 +50,11 @@ export const One = () => {
         <hr />
         <h4>El Cuerpo como Reflejo de Nuestra Existencia</h4>
         <p className="article-p">
-          Nuestro cuerpo no es simplemente una herramienta; es nuestro compañero
-          más fiel en el viaje de la vida. Cada latido del corazón, cada
-          respiración, es un testimonio de nuestra existencia en este mundo.
+        Estamos en nuestro cuerpo, él es además, nuestro pedazo de mundo 
+          más fiel. Es aquel al que llegan los latidos que mi corazón 
+          expresa del recorrido que hago por la existencia. 
           Reconocer esta conexión profunda con nuestro cuerpo nos invita a
           honrarlo, a cuidarlo como el tesoro que es.
-        </p>
-        <hr/>
-        <h4>Reflexiones Finales</h4>
-        <p className="article-p">
-          En última instancia, el cuerpo humano es mucho más que una
-          herramienta; es un reflejo de nuestra esencia más profunda, nuestro
-          hogar en este vasto universo. Al abrazar esta verdad fundamental,
-          podemos aprender a vivir en armonía con nosotros mismos y con el mundo
-          que nos rodea.
-          Estamos en nuestro cuerpo, él es además, nuestro pedazo de mundo 
-          más fiel. Es aquel al que llegan los latidos que mi corazón 
-          expresa del recorrido que "yo" hago por la existencia. 
         </p>
       </div>
     </div>

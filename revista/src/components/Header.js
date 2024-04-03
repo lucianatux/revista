@@ -47,13 +47,13 @@ export const Header = () => {
                 Inicio
               </Nav.Link>
               <Nav.Link href="#tema1" className="text-light tabs">
-                Tema 1
+                Talleres
               </Nav.Link>
               <Nav.Link href="#tema2" className="text-light tabs">
-                Tema 2
+                Agradecimientos
               </Nav.Link>
               <Nav.Link href="#tema3" className="text-light tabs">
-                Tema 3
+                Contacto
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
