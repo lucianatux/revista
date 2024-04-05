@@ -8,6 +8,8 @@ import {One} from './components/One';
 import {Two} from './components/Two';
 import {Three} from './components/Three';
 import { MemoryGame } from './components/MemoryGame';
+import { Aboutus } from './components/Aboutus';
+import { Workshops } from './components/Workshops';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
      <Two/>
      <Three/>
      <MemoryGame />
+     <Aboutus />
+     <Workshops />
     </div>
   );
 }

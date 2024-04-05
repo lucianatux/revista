@@ -46,14 +46,20 @@ export const Header = () => {
               <Nav.Link href="#inicio" className="text-light tabs">
                 Inicio
               </Nav.Link>
-              <Nav.Link href="#tema1" className="text-light tabs">
+              <Nav.Link href="#aboutus" className="text-light tabs">
+                Quiénes somos
+              </Nav.Link>
+              <Nav.Link href="#workshops" className="text-light tabs">
                 Talleres
               </Nav.Link>
-              <Nav.Link href="#tema2" className="text-light tabs">
+              <Nav.Link href="#acknowledgements" className="text-light tabs">
                 Agradecimientos
               </Nav.Link>
-              <Nav.Link href="#tema3" className="text-light tabs">
+              <Nav.Link href="#contact" className="text-light tabs">
                 Contacto
+              </Nav.Link>
+              <Nav.Link href="#usefullinks" className="text-light tabs">
+                Enlaces útiles
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

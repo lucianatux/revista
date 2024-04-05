@@ -217,8 +217,10 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   color: var(--first-color);
 }
 .menu-item:hover .theme{
-  scale: 1.2;
   box-shadow: 2px 2px 5px #fff;
+}
+.menu-item:hover .titles{
+  color: #ecceb9;
 }
 .themes{
   display: flex;
@@ -293,7 +295,16 @@ text-shadow: 3px 3px 10px rgba(0, 0, 0);
   border-radius: 20px;
   padding: 10px;
 }
-
+/************ About us Css ************/
+.aboutus-img{
+  width: 350px;
+  float:left;
+  border-radius: 20px;
+  padding: 10px;
+}
+.aboutus-title{
+  text-align: center;
+}
 /************ MemoryGame Css ************/
 .game-title{
 padding-top: 40px;
