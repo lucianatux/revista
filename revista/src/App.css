@@ -213,20 +213,27 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 .indice{
   padding-bottom: 20px;
 }
+.menu-item{
+  color: var(--first-color);
+}
+.menu-item:hover .theme{
+  scale: 1.2;
+  box-shadow: 2px 2px 5px #fff;
+}
 .themes{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .theme{
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   margin: 15px 0;
   border-radius: 10px;
   background-size: cover; 
   box-shadow: 0 0 10px #000;
-  /*animation: resplandor 3s infinite; */
 }
+/*animation: resplandor 3s infinite;
 @keyframes resplandor {
   0% {
     box-shadow: 0 0 10px black;
@@ -238,7 +245,7 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   100% {
     box-shadow: 0 0 10px black;
   }
-}
+}*/
 .tema1{
 background-image: url("../src/assets/img/tema1.jpg");
 }
