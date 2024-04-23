@@ -12,7 +12,7 @@ export const Header = () => {
           <img src={logo} className="logo" alt="Logo" />
           <img src={logo2} class="logo2" alt="Logo2" />
         </div>
-        <p className="phrase">La atención yace en nosotros</p>
+        <p className="phrase"></p>
         <span className="header-text">
           <div className="social-icon">
             <a
@@ -34,7 +34,7 @@ export const Header = () => {
       </div>
       <div className="second-header">
         <p className="text-light title">
-          Revista digital<span className="mx-2 name">El Ojo Cuántico</span>
+          Mayo 2024. Revista de divulgación<span className="mx-2 name">El Ojo Cuántico</span>
         </p>
         <Navbar expand="md">
           <Navbar.Toggle

@@ -193,8 +193,8 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   height: 100vh;
   background-image:linear-gradient(
     120deg,
-    #4c4c4c5a 0%,
-    #0d0426bb 100%
+    #e8e8d15a 0%,
+    #eae3fdbb 100%
   ),   url("../src/assets/img/fondo8.jpg");
   background-size: cover; 
   background-position: center; 
@@ -214,13 +214,13 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   padding-bottom: 20px;
 }
 .menu-item{
-  color: var(--first-color);
+  color: var(--sixth-color);
 }
 .menu-item:hover .theme{
-  box-shadow: 2px 2px 5px #fff;
+  box-shadow: 2px 2px 5px var(--fourth-color);
 }
 .menu-item:hover .titles{
-  color: #ecceb9;
+  color: var(--fourth-color);
 }
 .themes{
   display: flex;
@@ -270,7 +270,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 font-size: 22px;
 text-align: left;
 text-transform: uppercase;
-text-shadow: 3px 3px 10px rgba(0, 0, 0);
+text-shadow: 3px 3px 10px #f7f5f5;
 }
 @media (max-width:767px) {
 	.titles, .indice{
