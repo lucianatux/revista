@@ -34,7 +34,7 @@ export const Header = () => {
       </div>
       <div className="second-header">
         <p className="text-light title">
-          Mayo 2024. Revista de divulgación<span className="mx-2 name">El Ojo Cuántico</span>
+          Revista digital de divulgación
         </p>
         <Navbar expand="md">
           <Navbar.Toggle
