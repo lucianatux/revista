@@ -295,6 +295,9 @@ text-shadow: 3px 3px 10px rgba(0, 0, 0);
   border-radius: 20px;
   padding: 10px;
 }
+.italic{
+  font-style: italic;
+}
 /************ About us Css ************/
 .aboutus-img{
   width: 350px;

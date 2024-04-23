@@ -1,68 +1,61 @@
-import imgTwo from '../assets/img/tema2.jpg';
+import imgTwo from "../assets/img/tema2.jpg";
 
 export const Two = () => {
   return (
     <div>
       <div id="two" className="article-div">
-        <h1>Un Encuentro Intergaláctico: Explorando Nuevas Formas de Organización y Vida</h1>
+        <h1>
+          La Forma en las relaciones. Formas de estar vinculados
+        </h1>
         <p className="article-p">
-        <img src={imgTwo} alt="" className="article-img"/>
-        En una remota esquina del universo, una niña curiosa de la Tierra se 
-        encuentra con un ser de otro planeta, en un encuentro que desafía las 
-        fronteras del espacio y el tiempo. Sentados en la orilla de un río de 
-        estrellas, comienzan una conversación que trasciende mundos y culturas.
-        <br/><br/>
-Niña Terrestre: ¿Cómo es la vida en tu planeta? ¿Cómo se organizan allí?
-<br/><br/>
-Ser Intergaláctico: En mi planeta, la vida se organiza de una manera un tanto
- diferente a la que conoces en la Tierra. No nos regimos por las mismas 
- estructuras jerárquicas o roles predefinidos. En lugar de eso, nos organizamos 
- en base a la amistad y proyectos en común.
-<br/><br/>
-Niña Terrestre: ¡Eso suena fascinante! ¿Podrías explicarme más sobre cómo 
-funciona?
-<br/><br/>
-Ser Intergaláctico: Claro. En nuestro mundo, la amistad es la base de nuestra 
-sociedad. No nos limitamos a interactuar con personas de nuestro mismo grupo 
-social o edad, sino que nos conectamos con otros basándonos en intereses y 
-afinidades. Esto nos permite formar comunidades dinámicas y diversas, donde 
-cada individuo aporta su propia singularidad y perspectiva.
-<br/><br/>
-Niña Terrestre: Wow, eso suena como un enfoque mucho más inclusivo y flexible 
-que el que tenemos en la Tierra. ¿Cómo toman decisiones importantes en tu 
-sociedad?
-<br/><br/>
-Ser Intergaláctico: Las decisiones importantes se toman de manera colectiva, 
-a través de un proceso de diálogo y consenso. Valoramos la diversidad de 
-opiniones y buscamos encontrar soluciones que beneficien a todos. No hay 
-una sola autoridad central que dicte las reglas, sino que cada individuo 
-tiene voz y voto en los asuntos que le conciernen.
-<br/><br/>
-Niña Terrestre: Es increíble pensar en la posibilidad de vivir en un mundo 
-donde la colaboración y la empatía son los pilares de la sociedad. ¿Cómo 
-lidian con los desafíos y conflictos?
-<br/><br/>
-Ser Intergaláctico: Enfrentamos los desafíos y conflictos con apertura y 
-creatividad. En lugar de recurrir a la violencia o la confrontación, buscamos
- soluciones pacíficas y constructivas. Valoramos el diálogo y el entendimiento 
- mutuo, y estamos dispuestos a aprender de nuestras diferencias.
-<br/><br/>
-Niña Terrestre: Es una perspectiva realmente inspiradora. Me hace reflexionar 
-sobre las posibilidades que existen más allá de las estructuras sociales 
-tradicionales de la Tierra. ¿Crees que podríamos aprender algo de tu forma 
-de vida en la Tierra?
-<br/><br/>
-Ser Intergaláctico: Absolutamente. Creo que siempre hay espacio para explorar 
-nuevas formas de organización y convivencia. La diversidad es la fuerza que 
-impulsa el universo, y al abrir nuestras mentes a nuevas ideas y perspectivas, 
-podemos construir un mundo más inclusivo y armonioso para todos.
-<br/><br/><br/>
-En medio de la vastedad del cosmos, este encuentro entre dos jóvenes de mundos 
-distintos nos invita a imaginar un futuro donde la amistad, la colaboración y 
-la diversidad son los pilares de la sociedad. ¿Estamos listos para abrirnos a 
-nuevas posibilidades y reinventar nuestra forma de vivir en la Tierra? La 
-respuesta yace en las estrellas, esperando ser descubierta por aquellos 
-dispuestos a soñar en grande y atreverse a imaginar un mundo mejor.
+          <img src={imgTwo} alt="" className="article-img" />
+          El "cómo" y la
+          "forma" en que se organiza la estructura de un objeto o sistema, desde
+          el nivel atómico hasta el biológico, determinan su identidad y
+          propiedades específicas. En el mundo atómico y subatómico, la
+          organización de la estructura del átomo configura las propiedades
+          químicas de los elementos. Asimismo, en el plano biológico, la
+          complejidad de las conexiones y sistemas en los organismos permite la
+          conservación de su estructura y el desarrollo de sus funciones
+          vitales. <br/><br/>En la interacción con su entorno, los individuos se rigen por
+          las condiciones del ámbito que les dio origen, manteniendo su
+          desarrollo estructural. La naturaleza de las relaciones está marcada
+          por la coexistencia y pertenencia, donde la forma en que se establecen
+          estas relaciones influye de manera fundamental en su tipo y
+          desarrollo. <br/><br/>“...Cuando diversas especies aparecen en un mismo espacio,
+          surgen distintas relaciones entre ellas, aparte de las que existen
+          dentro de la misma especie. Hay relaciones simbióticas, de asociación,
+          parásitas, saprófitas, etcétera. Todas estas relaciones posibles
+          pueden simplificarse en tres grandes tipos: relaciones de dominio,
+          relaciones de intercambio y relaciones de destrucción. Los organismos
+          mantienen entre sí estas relaciones, sobreviviendo unos y
+          desapareciendo otros.” (*) <br/><br/>Relaciones “parasitarias o de destrucción”
+          donde uno solo de los agentes, o una minoría en relación, merma la
+          vitalidad de otro. <br/><br/> Relaciones “simbióticas o de intercambio” donde
+          todos los agentes se benefician vitalmente. <br/><br/> Relaciones de “dominio”
+          donde uno o una minoría subordina a otra, pero sobreviven
+          desigualmente. Para todas las especies que generan proto-culturas o
+          culturas como lo hace la especie humana, la trama relacional está tan
+          implicada en la supervivencia que somos testigos de relaciones
+          simbióticas en la naturaleza y su ecosistema, como observando a los
+          hipopótamos que se benefician de las aves, ya que estas actúan como
+          desparasitarias al comer bacterias de sus heridas como alimento
+          sabroso, y muchas otras especies más que coexisten gracias a
+          intercambios favorables entre sí.  <br/><br/>Está más que claro cuáles relaciones
+          son de tipo destructivas en la naturaleza y cuáles, también, de
+          dominio. Por eso es sano para la energía de uno conocer cómo es su
+          propia estructura de relaciones. La vida es esa gran trama eterna que
+          une todo a ella, creciendo sin límites. <br/><br/> Comprender y gestionar nuestra
+          propia estructura de relaciones es esencial para nuestro bienestar y
+          crecimiento personal. Al evaluar regularmente nuestras conexiones con
+          los demás, podemos identificar relaciones que son beneficiosas y
+          aquellas que pueden ser perjudiciales. Establecer límites saludables
+          nos ayuda a proteger nuestro espacio emocional y físico,
+          permitiéndonos mantener relaciones equilibradas y respetuosas. Además,
+          cultivar relaciones positivas y de apoyo nos brinda un entorno más
+          saludable para crecer y prosperar. Prestar atención a estos aspectos
+          nos permite contribuir a una sociedad más armoniosa y en equilibrio.
+          <br/><br/>* Cita: Silo. <span className="italic">Apuntes de Psicología</span>
         </p>
       </div>
     </div>

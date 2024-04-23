@@ -22,7 +22,7 @@ export const Home = () => {
           <div className=" theme tema2"></div>
         </div>
         <div className="titles col-sm-12 col-md-4">
-        Explorando Nuevas Formas de Organización y Vida
+        La Forma en las Relaciones
         </div>
       </div>
       </a>
