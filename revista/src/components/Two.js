@@ -5,7 +5,7 @@ export const Two = () => {
     <div>
       <div id="two" className="article-div">
         <h1>
-          La Forma en las relaciones. Formas de estar vinculados
+          La Forma de estar vinculados en las relaciones
         </h1>
         <p className="article-p">
           <img src={imgTwo} alt="" className="article-img" />

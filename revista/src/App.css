@@ -1,35 +1,20 @@
-/************ Custom Font ************/
-@font-face {
-  font-family: Centra;
-  src: url("./assets/fonts/CentraNo2-Bold.ttf");
-  font-weight: 700;
-}
-@font-face {
-  font-family: Centra;
-  src: url("./assets/fonts/CentraNo2-Medium.ttf");
-  font-weight: 500;
-}
-@font-face {
-  font-family: Centra;
-  src: url("./assets/fonts/CentraNo2-Book.ttf");
-  font-weight: 400;
-}
-
+/************ Font ************/
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 
 
 /************ Colors ************/
 
 :root {
   --first-color: #e6e6e6;
-  --second-color: #9d3172;
-  --third-color: #d3a61d;
+  --second-color: #d26938;
+  --third-color: #01010188;
   --fourth-color: #176589;
   --fifth-color: #999;
   --sixth-color: #010101;
   --seventh-color: #d9d9d91a;
-  --eighth-color: #ffffff80;
-  --nineth-color: #444;
 }
 
 /************ Default Css ************/
@@ -47,7 +32,7 @@ body {
   position: relative;*/
   background-color: var(--sixth-color);
   color: var(--first-color) !important;
-  font-family: "Centra", sans-serif !important;
+  font-family: "Roboto", sans-serif;
 }
 p,
 a,
@@ -74,7 +59,7 @@ select:focus {
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-  color: #ffffff !important; 
+  color: var(--first-color) !important; 
 }
 
 
@@ -107,7 +92,7 @@ select:focus {
 }
 .elojocuantico{
   font-family: Anton;
-  color: #d26938;
+  color: var(--second-color);
   text-align: center;
 }
 .phrase {
@@ -126,9 +111,9 @@ select:focus {
 .logo-container {
   position: relative;
   z-index: 9999;
-  width: 138px; /* Ancho máximo de la imagen */
-  height: 92px; /* Alto máximo de la imagen */
-  overflow: hidden; /* Para ocultar la parte de la imagen que se desborda */
+  width: 138px; 
+  height: 92px; 
+  overflow: hidden; 
 }
 
 .logo,
@@ -183,7 +168,7 @@ select:focus {
   color: var(--first-color);
 }
 .tabs:hover{
-  color:#d26938;
+  color: var(--second-color);
 }
 
 span.header-text {
@@ -204,7 +189,7 @@ span.header-text {
   align-items: center;
   justify-content: center;
   line-height: 1;
-  border: 1px solid var(--eighth-color);
+  border: 1px solid var(--seventh-color);
 }
 .social-icon a::before {
   content: "";
@@ -243,15 +228,12 @@ span.header-text {
 }
 
 /************ Home Css ************/
+
 .section-app {
   padding-top: 150px;
   position: relative;
   z-index: 0;
-  height: 100vh;
-}
-
-.indice {
-  color: var(--sixth-color);
+  height: 100%;
 }
 .menu-item {
   color: var(--sixth-color);
@@ -259,35 +241,39 @@ span.header-text {
 .menu-item:hover .theme {
   box-shadow: 4px 4px 10px var(--sixth-color);
 }
-.menu-item:hover .titles {
-  color: var(--fourth-color);
+.tit{
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  height: 100px;
+  color: #000b;
+  /*text-shadow: 0 0 10px var(--first-color);*/
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+.card-theme{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+ padding: 20px;
 }
 .themes {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px;
+  text-align: center;
 }
 .theme {
-  width: 220px;
-  height: 220px;
-  margin: 20px;
+  width: 250px;
+  height: 250px;
+  margin: auto;
   border-radius: 10px;
   background-size: cover;
-  box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px var(--sixth-color);
 }
-/*animation: resplandor 3s infinite;
-@keyframes resplandor {
-  0% {
-    box-shadow: 0 0 10px black;
-  }
-  50%{
-    box-shadow: 0 0 10px white;
-    border-radius: 30px;
-  }
-  100% {
-    box-shadow: 0 0 10px black;
-  }
-}*/
 .tema1 {
   background-image: url("../src/assets/img/tema1.jpg");
 }
@@ -306,12 +292,10 @@ span.header-text {
   margin: 10px 0;
   padding-top: 40px;
   padding-left: 30px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   font-size: 22px;
   text-align: left;
   text-transform: uppercase;
-  text-shadow: 3px 3px 10px #f7f5f5;
+  text-shadow: 3px 3px 10px var(--first-color);
 }
 @media (max-width: 767px) {
   .titles,
@@ -323,8 +307,9 @@ span.header-text {
 }
 /************ Articles Css ************/
 .article-div {
+  margin-top: 40px;
   padding: 10%;
-  background: #0006;
+  background: var(--third-color);
 }
 .article-p {
   font-size: 22px;
@@ -361,14 +346,17 @@ span.header-text {
   border-radius: 4px;
   color: #fff;
   font-size: 1em;
+  background: var(--sixth-color);
 }
 .new-game:hover {
-  background: #c23866;
+  background: var(--second-color);
   color: #fff;
 }
 .memory-game {
   text-align: center;
-  margin: 50px;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  color: var(--sixth-color);
 }
 .card-grid {
   margin: 40px auto;

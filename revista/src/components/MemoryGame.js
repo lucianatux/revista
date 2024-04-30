@@ -49,7 +49,6 @@ export const MemoryGame = () => {
 
   // handle a choice
   const handleChoice = (card) => {
-    console.log("card:", card);
     choiceOne ? setChoiceTwo(card) : setChoiceOne(card);
   };
 
