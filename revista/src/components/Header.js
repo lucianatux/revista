@@ -7,60 +7,58 @@ import { Navbar, Nav } from "react-bootstrap";
 export const Header = () => {
   return (
     <div className="header">
-      <div className="first-header">
-        <div className="logo-container mx-5">
+      <div className="div-header">
+        <div className="logo-container m-2">
           <img src={logo} className="logo" alt="Logo" />
-          <img src={logo2} class="logo2" alt="Logo2" />
+          <img src={logo2} className="logo2" alt="Logo2" />
         </div>
-        <p className="phrase"></p>
-        <span className="header-text">
-          <div className="social-icon">
-            <a
-              href="https://www.youtube.com/@elojocuantico-espaciocreat4572"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={navIcon5} alt="youtube-icon" />
-            </a>
-            <a
-              href="https://www.facebook.com/groups/410686510468952/user/100079068583763/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={navIcon4} alt="facebook-icon" />
-            </a>
-          </div>
-        </span>
-      </div>
-      <div className="second-header">
-        <p className="text-light title">
-          Revista digital de divulgación
-        </p>
+        <div className="m-2">
+          <h3 className="elojocuantico">El Ojo Cuántico</h3>
+          <p className="text-light magazine">Revista digital de divulgación</p>
+        </div>
         <Navbar expand="md">
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             className="bg-body-tertiary mx-5"
           />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#inicio" className="text-light tabs">
+            <Nav className="me-auto align-items-center">
+              <Nav.Link href="#inicio" className="tabs">
                 Inicio
               </Nav.Link>
-              <Nav.Link href="#aboutus" className="text-light tabs">
-                Quiénes somos
+              <Nav.Link href="#aboutus" className="tabs">
+                Nuestros propósitos
               </Nav.Link>
-              <Nav.Link href="#workshops" className="text-light tabs">
+              <Nav.Link href="#workshops" className="tabs">
                 Talleres
               </Nav.Link>
-              <Nav.Link href="#acknowledgements" className="text-light tabs">
+              <Nav.Link href="#acknowledgements" className="tabs">
                 Agradecimientos
               </Nav.Link>
-              <Nav.Link href="#contact" className="text-light tabs">
+              <Nav.Link href="#contact" className="tabs">
                 Contacto
               </Nav.Link>
-              <Nav.Link href="#usefullinks" className="text-light tabs">
+              <Nav.Link href="#usefullinks" className="tabs">
                 Enlaces útiles
               </Nav.Link>
+              <span className="header-text">
+                <div className="social-icon">
+                  <a
+                    href="https://www.youtube.com/@elojocuantico-espaciocreat4572"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={navIcon5} alt="youtube-icon" />
+                  </a>
+                  <a
+                    href="https://www.facebook.com/groups/410686510468952/user/100079068583763/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={navIcon4} alt="facebook-icon" />
+                  </a>
+                </div>
+              </span>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
