@@ -72,6 +72,13 @@ select:focus {
   outline: none;
 }
 
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #ffffff !important; 
+}
+
+
+
 @media (min-width: 1700px) {
   main .container {
     max-width: 100%;
@@ -172,9 +179,13 @@ select:focus {
   text-align: center;
   color: var(--first-color);
 }
+.nav-link.active{
+  color: var(--first-color);
+}
 .tabs:hover{
   color:#d26938;
 }
+
 span.header-text {
   display: flex;
   align-items: center;

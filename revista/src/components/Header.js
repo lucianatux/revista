@@ -16,10 +16,10 @@ export const Header = () => {
           <h3 className="elojocuantico">El Ojo Cuántico</h3>
           <p className="text-light magazine">Revista digital de divulgación</p>
         </div>
-        <Navbar expand="md">
+        <Navbar expand="lg" className="justify-content-center">
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
-            className="bg-body-tertiary mx-5"
+            className="bg-body-tertiary mx-4"
           />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto align-items-center">
