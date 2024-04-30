@@ -244,10 +244,12 @@ span.header-text {
 
 /************ Home Css ************/
 .section-app {
-  padding-top: 130px;
+  padding-top: 150px;
   position: relative;
   z-index: 0;
+  height: 100vh;
 }
+
 .indice {
   color: var(--sixth-color);
 }
