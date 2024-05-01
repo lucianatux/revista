@@ -6,7 +6,7 @@ export const Aboutus = () => {
       <h1 className="aboutus-title">Nuestro propósito</h1>
       <img className=" aboutus-img" src={group} alt="img group" />
       <p className="article-p aboutus-text">
-        Nuestro Propósito: Bienvenido a la Revista Digital "El Ojo Cuántico", donde
+        Bienvenido a la Revista Digital <span>El Ojo Cuántico</span>, donde
         exploramos los avances y descubrimientos que están moldeando nuestra
         comprensión del mundo y de nosotros mismos. Nos dedicamos a comunicar y
         compartir las nuevas perspectivas que surgen en el ámbito

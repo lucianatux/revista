@@ -56,12 +56,9 @@ textarea:focus,
 select:focus {
   outline: none;
 }
-
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link.show {
-  color: var(--first-color) !important; 
+span{
+  font-style: italic;
 }
-
 
 
 @media (min-width: 1700px) {
