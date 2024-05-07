@@ -10,6 +10,7 @@ import {Three} from './components/Three';
 import { MemoryGame } from './components/MemoryGame';
 import { Aboutus } from './components/Aboutus';
 import { Workshops } from './components/Workshops';
+import { Phrases } from './components/Phrases';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
      <Header />
       <Menu />
      <Home />
+     <Phrases />
      <One/>
      <Two/>
      <Three/>
