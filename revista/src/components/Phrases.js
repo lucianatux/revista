@@ -1,15 +1,17 @@
-
-
 export const Phrases = () => {
   return (
-    <div>
-      <img  
+    <div className="button-phrase-div">
+      <div className="button-text">
+        Click aquí &#8594; 
+        <img
         src="https://i.gifer.com/XDZT.gif"
         alt="Example GIF"
-        width={280}
-        height={280}
+        id="button-phrase"
       />
-      <button type="button">Click me</button>
+      <br /> para obtener tu frase al azar
+      </div>
+
+      
     </div>
   );
 };
