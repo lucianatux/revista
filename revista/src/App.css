@@ -28,8 +28,8 @@ html {
   scroll-padding-top: 75px;
 }
 body {
-  /* overflow-x: hidden;
-  position: relative;*/
+  overflow-x: hidden;
+  position: relative;
   background-color: var(--sixth-color);
   color: var(--first-color) !important;
   font-family: "Roboto", sans-serif;
@@ -50,11 +50,6 @@ a:hover {
 button {
   border: 0;
   background-color: transparent;
-}
-input:focus,
-textarea:focus,
-select:focus {
-  outline: none;
 }
 span{
   font-style: italic;
@@ -92,11 +87,6 @@ span{
   color: var(--second-color);
   text-align: center;
 }
-.phrase {
-  text-align: center;
-  font-size: large;
-  font-style: italic;
-}
 .magazine {
   font-size: small;
   text-align: center;
@@ -112,7 +102,6 @@ span{
   height: 92px; 
   overflow: hidden; 
 }
-
 .logo,
 .logo2 {
   position: absolute;
@@ -123,15 +112,12 @@ span{
   animation-duration: 20s;
   animation-iteration-count: infinite;
 }
-
 .logo {
   animation-name: unfade;
 }
-
 .logo2 {
   animation-name: fade;
 }
-
 @keyframes fade {
   0% {
     opacity: 0;
@@ -143,7 +129,6 @@ span{
     opacity: 1;
   }
 }
-
 @keyframes unfade {
   0% {
     opacity: 1;
@@ -155,19 +140,17 @@ span{
     opacity: 0;
   }
 }
-
 .tabs {
   margin: 0 5px;
   text-align: center;
   color: var(--first-color);
 }
 .nav-link.active{
-  color: var(--first-color);
+  color: var(--first-color) !important;
 }
 .tabs:hover{
   color: var(--second-color);
 }
-
 span.header-text {
   display: flex;
   align-items: center;
@@ -215,12 +198,11 @@ span.header-text {
 .menu-div {
   width: 100%;
   height: 100vh;
-  scale: 1.8;
+  scale: 1.7;
   background-image: linear-gradient(120deg, #e8e8d15a 0%, #eae3fdbb 100%),
     url("../src/assets/img/fondo7.jpg");
   background-size:contain;
   background-position:center;
-  padding: 5% 0 0 10%;
   position: fixed;
   z-index: -1;
   transform-origin: 50% 50%;
@@ -228,39 +210,86 @@ span.header-text {
   transition: transform 5s ease-in-out; /* Slow animation for initial rotation */
   animation: initialRotation 5s forwards; /* Trigger initial rotation on page load */
 }
-
-
 @keyframes initialRotation {
   from { transform: rotate(0deg); } /* Start from 0 degrees */
   to { transform: rotate(-30deg); } /* Rotate to 360 degrees */
 }
 
-.button-phrase-div{
+/************phrases***********************/
+.phrase-button-div{
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 50px;
-  padding: 5px;
-  width: 250px;
+  padding: 120px 5px 5px 5px;
   background: transparent;
   border-radius: 20px;
 }
- #button-phrase{
+ #phrase-button{
   width: 50px;
   height: 50px;
   cursor: pointer;
  }
- .button-text{
+ .text-button{
   color: var(--sixth-color);
   text-shadow: 0px 0px 5px #fff;
   font-weight: 800;
  }
-
+ #phrase-div{
+  position: absolute;
+  top: 12%;
+  left: 10%;
+  z-index: 1;
+  width: 80%;
+  height: 85vh;
+  background: url("./assets/img/pergam3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  color: #111;
+  padding: 30px;
+ }
+ @media (max-width: 768px) {
+  #phrase-div{
+    background: url("./assets/img/pergam1.png");
+    background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 5%;
+    left: 0%;
+    width: 100%;
+    height: 90vh;
+  }
+  .textandbutton-div{
+    margin-left: 110px;
+    height: 90%;
+    width: 70%;
+  }
+ }
+ .textandbutton-div{
+  margin-top: 150px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+ }
+ #phrase-text{
+  font-size: 20px;
+ }
+ #goon-button{
+  padding: 7px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #111;
+ }
+ #goon-button:hover{
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #fff;
+ }
+ 
 /************ Home Css ************/
-
 .section-app {
-  padding-top: 150px;
   position: relative;
   z-index: 0;
   height: 100%;
@@ -316,7 +345,6 @@ span.header-text {
 .tema4 {
   background-image: url("../src/assets/img/memo4.jpg");
 }
-
 .titles {
   height: 120px;
   margin: 10px 0;
@@ -337,7 +365,8 @@ span.header-text {
 }
 /************ Articles Css ************/
 .article-div {
-  margin-top: 40px;
+  width: 105%;
+  margin: 0px;
   padding: 10%;
   background: var(--third-color);
 }
@@ -359,8 +388,8 @@ span.header-text {
 .aboutus-img {
   width: 350px;
   float: left;
-  border-radius: 20px;
-  padding: 10px;
+  border-radius: 10px;
+  scale: 1.2;
 }
 .aboutus-title {
   text-align: center;
@@ -402,7 +431,6 @@ span.header-text {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
-
 .card {
   position: relative;
 }
@@ -430,113 +458,11 @@ span.header-text {
   transition-delay: 0s;
 }
 
-/* 
-linear-gradient(
-    120deg,
-    #0000005a 0%,
-    #111044bb 100%
-  ),
-   */
-/************ Banner Css ************/
-/*.banner {
-  margin-top: 0;
-  padding: 150px 0 100px 0;
-  height: 100vh;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(25, 25, 22, 0.5),
-    rgba(9, 9, 9, 0.5)
-  ), url("");
-  background-color: var(--sixth-color);
-}
-.banner .tagline {
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  padding: 8px 10px;
-  background-color: var(--second-color);
-  border: 1px solid var(--eighth-color);
-  font-size: 20px;
-  margin-bottom: 16px;
-  display: inline-block;
-}
-.banner h1 {
-  font-size: 55px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1;
-  margin-bottom: 20px;
-  display: block;
-}
-.banner h3{
-  color:var(--third-color);
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1;
-}
-.banner p {
-  color: var(--nineth-color);
-  font-size: 24px;
-  letter-spacing: 0.8px;
-  line-height: 1.5em;
-  width: 96%;
-  padding: 5px;
-  background-color: var(--third-color);
-}
-.banner button {
-  color: var(--first-color);
-  font-weight: 700;
-  font-size: 20px;
-  margin-top: 60px;
-  letter-spacing: 0.8px;
-  display: flex;
-  align-items: center;
-}
-.banner button svg {
-  font-size: 25px;
-  margin-left: 10px;
-  transition: 0.3s ease-in-out;
-  line-height: 1;
-}
-.banner button:hover svg {
-  margin-left: 25px;
-}
-
-.banner img {
-  margin-top: 100px;
-  animation: circularMotion 10s linear infinite;
-  transform-origin: center bottom;
-}
-@keyframes circularMotion {
-  0% {
-    transform: translateX(0) translateY(-5px);
-  }
-  25% {
-    transform: translateX(5px) translateY(0);
-  }
-  50% {
-    transform: translateX(0) translateY(5px);
-  }
-  75% {
-    transform: translateX(-5px) translateY(0);
-  }
-  100% {
-    transform: translateX(0) translateY(-5px);
-  }
-}
-
-.txt-rotate > .wrap {
-  border-right: 0.08em solid var(--nineth-color);
-}
-
-.presentation{
-  margin-top: 40px;
-}
-.presentation > * {
-  padding: 50px 0;
-}
-.contactme{
-  text-decoration: none;
-}
+/**************workshops*************/
+ .workshop-item{
+  background: var(--second-color);
+  margin: 10px;
+ }
 
 /************ Skills Css ************/ /*
 .skill {

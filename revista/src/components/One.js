@@ -2,7 +2,6 @@ import imgOne from "../assets/img/tema1.jpg";
 
 export const One = () => {
   return (
-    <div>
       <div id="one" className="article-div">
         <h1>El cuerpo es nuestra mayor herramienta</h1>
         <p className="article-p">
@@ -57,6 +56,5 @@ export const One = () => {
           honrarlo, a cuidarlo como el tesoro que es.
         </p>
       </div>
-    </div>
   );
 };

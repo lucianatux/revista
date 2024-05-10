@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import {Header} from './components/Header';
@@ -17,8 +16,8 @@ function App() {
     <div className="App">
      <Header />
       <Menu />
+      <Phrases />
      <Home />
-     <Phrases />
      <One/>
      <Two/>
      <Three/>

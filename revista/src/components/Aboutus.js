@@ -1,4 +1,4 @@
-import group from "../assets/img/proposito.jpg";
+import group from "../assets/img/goal.png";
 
 export const Aboutus = () => {
   return (
