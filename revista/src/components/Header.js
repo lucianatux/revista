@@ -38,9 +38,6 @@ export const Header = () => {
               <Nav.Link href="#contact" className="tabs">
                 Contacto
               </Nav.Link>
-              <Nav.Link href="#usefullinks" className="tabs">
-                Enlaces útiles
-              </Nav.Link>
               <span className="header-text">
                 <div className="social-icon">
                   <a

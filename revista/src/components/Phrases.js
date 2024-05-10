@@ -31,10 +31,8 @@ export const Phrases = () => {
       setIsAnimating(false); // Reset animation flag after hiding
     }, 1000); // Adjust timeout for animation duration
   };
-
-  
   return (
-    <div>
+    <div className="section-app">
       <div className="phrase-button-div">
         <div className="text-button">
           Click aquí &#8594;
