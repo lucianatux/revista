@@ -283,11 +283,22 @@ span.header-text {
   position: relative;
   height: 100%;
 }
+.card-theme{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+ padding: 20px;
+}
+.card-theme:hover .theme {
+  box-shadow: 4px 4px 10px var(--sixth-color);
+}
+.card-theme:hover .tit {
+  color: var(--fourth-color);
+  text-shadow: 1px 1px 5px #fff ;
+}
 .menu-item {
   color: var(--sixth-color);
-}
-.menu-item:hover .theme {
-  box-shadow: 4px 4px 10px var(--sixth-color);
 }
 .tit{
   font-size: 20px;
@@ -300,12 +311,8 @@ span.header-text {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
-.card-theme{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
- padding: 20px;
+.subtit{
+  padding-top: 20px;
 }
 .themes {
   display: flex;
@@ -390,16 +397,16 @@ span.header-text {
   display: flex;
   flex-wrap: wrap; 
   text-align: center;
+  margin: 50px;
 }
 
 .workshop-item {
   flex: 0 0 calc(33.33% - 20px); 
-  height: 400px;
   margin: 10px; 
   background: var(--third-color);
   box-shadow: 0px 0px 10px #faf7f7;
   border-radius: 10px;
-  padding: 10px;
+  padding: 15px;
   box-sizing: border-box;
   color: var(--first-color);
   font-size: 20px;
@@ -421,15 +428,32 @@ span.header-text {
 }
 @media (max-width: 767px) {
   .workshop-item {
-    font-size: 16px;
+    flex: 0 0 calc(100%); 
+    font-size: 18px;
     font-weight: 400;
-  }
-  .workshop-item img{
-    width: 80px;
+    margin: 10px;
   }
   .workshop-item p{
-    font-size: 14px;
+    font-size: 16px;
   }
+}
+
+/************ Contact Css ************/ 
+.title-form{
+  background: #fff;
+  color: var(--fourth-color);
+}
+.contact-icon{
+  width: 80px;
+}
+
+/************ Footer Css ************/ 
+.footer-div{
+  padding: 40px 0 20px 0;
+  background: var(--sixth-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /************ MemoryGame Css ************/

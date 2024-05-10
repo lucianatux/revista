@@ -10,6 +10,8 @@ import { MemoryGame } from "./components/MemoryGame";
 import { Aboutus } from "./components/Aboutus";
 import { Workshops } from "./components/Workshops";
 import { Phrases } from "./components/Phrases";
+import {Contact} from "./components/Contact";
+import {Footer} from "./components/Footer";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
       <MemoryGame />
       <Aboutus />
       <Workshops />
+      <Contact />
+      <Footer />
     </div>
   );
 }

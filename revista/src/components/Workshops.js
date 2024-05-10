@@ -3,11 +3,12 @@ import ws2 from "../assets/img/workshops/circo.png";
 import ws3 from "../assets/img/workshops/camara-de-video.png";
 import ws4 from "../assets/img/workshops/programacion.png";
 import ws5 from "../assets/img/workshops/computadora.png";
+import ws6 from "../assets/img/workshops/dados.png";
 
 export const Workshops = () => {
   return (
-    <div id="workshops" class="workshops-container">
-      <div class="workshop-item">
+    <div id="workshops" className="workshops-container">
+      <div className="workshop-item">
         <img src={ws1} alt="" />
         Taller de Teatro
         <p>
@@ -19,7 +20,7 @@ export const Workshops = () => {
           <br/> Para mas info tel: 3512458193 Mariano
         </p>
       </div>
-      <div class="workshop-item">
+      <div className="workshop-item">
         <img src={ws2} alt="" />
         Taller de Circo
         <p>
@@ -31,7 +32,7 @@ export const Workshops = () => {
           <br/> Para mas info tel: 3512458193 Mariano
         </p>
       </div>
-      <div class="workshop-item">
+      <div className="workshop-item">
         <img src={ws3} alt="" />
         Taller de VideoRodaje
         <p>
@@ -43,7 +44,7 @@ export const Workshops = () => {
           <br/> Para mas info tel: 3512458193 Mariano
         </p>
       </div>
-      <div class="workshop-item">
+      <div className="workshop-item">
         <img src={ws4} alt="" />
         Taller de Programación
         <p>
@@ -56,7 +57,7 @@ export const Workshops = () => {
           <br/> Para mas info tel: 3512309375 Luciana
         </p>
       </div>
-      <div class="workshop-item">
+      <div className="workshop-item">
         <img src={ws5} alt="" />
         Taller de Computación
         <p>
@@ -64,6 +65,19 @@ export const Workshops = () => {
           <br />
           Elegí tu horario. Clases personalizadas.
           <br />Lunes a Viernes 8:30 hs a 10:30hs
+          <br />
+          En El Ojo Cuántico: P.L.Monti 4428 (portón negro).
+          <br/> Para mas info tel: 3512309375 Luciana
+        </p>
+      </div>
+      <div className="workshop-item">
+        <img src={ws6} alt="" />
+        Taller de Creación de Juegos
+        <p>
+        Para jóvenes y adultos.
+          <br />
+          Elegí tu horario. Clases personalizadas.
+          <br />Lunes o Jueves 16hs
           <br />
           En El Ojo Cuántico: P.L.Monti 4428 (portón negro).
           <br/> Para mas info tel: 3512309375 Luciana

@@ -32,9 +32,6 @@ export const Header = () => {
               <Nav.Link href="#workshops" className="tabs">
                 Talleres
               </Nav.Link>
-              <Nav.Link href="#acknowledgements" className="tabs">
-                Agradecimientos
-              </Nav.Link>
               <Nav.Link href="#contact" className="tabs">
                 Contacto
               </Nav.Link>

@@ -6,6 +6,7 @@ export const Home = () => {
           <a href="#one" className="menu-item">
             <div className="card-theme">
               <div className="theme tema1"></div>
+              <p className="subtit"> Artículo n° 1</p>
               <p className="tit">El cuerpo es nuestra mayor herramienta</p>
             </div>
           </a>
@@ -14,6 +15,7 @@ export const Home = () => {
           <a href="#two" className="menu-item">
             <div className="card-theme">
               <div className=" theme tema2"></div>
+              <p className="subtit"> Artículo n° 2</p>
               <p className="tit">La forma de estar vinculados en las relaciones</p>
             </div>
           </a>
@@ -22,6 +24,7 @@ export const Home = () => {
           <a href="#three" className="menu-item">
             <div className="card-theme">
               <div className=" theme tema3"></div>
+              <p className="subtit"> Artículo n° 3</p>
               <p className="tit">Una nueva sensibilidad está naciendo</p>
             </div>
           </a>
@@ -30,6 +33,7 @@ export const Home = () => {
           <a href="#game" className="menu-item">
             <div className="card-theme">
               <div className=" theme tema4"></div>
+              <p className="subtit"> Juego del mes</p>
               <p className="tit">El juego de la memoria</p>
             </div>
           </a>
