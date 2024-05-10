@@ -1,9 +1,7 @@
 /************ Font ************/
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 
 /************ Colors ************/
 
@@ -51,11 +49,9 @@ button {
   border: 0;
   background-color: transparent;
 }
-span{
+span {
   font-style: italic;
 }
-
-
 
 /************ Header Css ************/
 .header {
@@ -70,7 +66,7 @@ span{
   justify-content: center;
   align-items: center;
 }
-.elojocuantico{
+.elojocuantico {
   font-family: Anton;
   color: var(--second-color);
   text-align: center;
@@ -86,9 +82,9 @@ span{
 .logo-container {
   position: relative;
   z-index: 9999;
-  width: 138px; 
-  height: 92px; 
-  overflow: hidden; 
+  width: 138px;
+  height: 92px;
+  overflow: hidden;
 }
 .logo,
 .logo2 {
@@ -133,10 +129,10 @@ span{
   text-align: center;
   color: var(--first-color);
 }
-.nav-link.active{
+.nav-link.active {
   color: var(--first-color) !important;
 }
-.tabs:hover{
+.tabs:hover {
   color: var(--second-color);
 }
 span.header-text {
@@ -189,8 +185,8 @@ span.header-text {
   scale: 1.7;
   background-image: linear-gradient(120deg, #e8e8d15a 0%, #eae3fdbb 100%),
     url("../src/assets/img/fondo7.jpg");
-  background-size:contain;
-  background-position:center;
+  background-size: contain;
+  background-position: center;
   background-repeat: repeat;
   position: fixed;
   z-index: -1;
@@ -200,32 +196,34 @@ span.header-text {
   animation: initialRotation 5s forwards; /* Trigger initial rotation on page load */
 }
 @keyframes initialRotation {
-  from { transform: rotate(0deg); } /* Start from 0 degrees */
-  to { transform: rotate(-30deg); } /* Rotate to 360 degrees */
+  from {
+    transform: rotate(0deg);
+  } /* Start from 0 degrees */
+  to {
+    transform: rotate(-30deg);
+  } /* Rotate to 360 degrees */
 }
 
 /************phrases***********************/
-.phrase-button-div{
+.phrase-button-div {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 120px 5px 5px 5px;
-  background: transparent;
-  border-radius: 20px;
   z-index: 2;
 }
- #phrase-button{
+#phrase-button {
   width: 50px;
   height: 50px;
   cursor: pointer;
- }
- .text-button{
+}
+.text-button {
   color: var(--sixth-color);
   text-shadow: 0px 0px 5px #fff;
   font-weight: 800;
- }
- #phrase-div{
+}
+#phrase-div {
   position: absolute;
   top: 12%;
   left: 10%;
@@ -236,71 +234,72 @@ span.header-text {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 5px;
   color: #111;
-  padding: 30px;
- }
- @media (max-width: 768px) {
-  #phrase-div{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  #phrase-div {
     background: url("./assets/img/pergam1.png");
     background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  top: 5%;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 5%;
     left: 0%;
     width: 100%;
     height: 90vh;
   }
-  .textandbutton-div{
-    margin-left: 110px;
-    height: 90%;
-    width: 70%;
+  .textandbutton-div {
+    width: 65%;
   }
- }
- .textandbutton-div{
-  margin-top: 150px;
-  height: 50%;
+}
+.textandbutton-div {
+  height: 70%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
- }
- #phrase-text{
+}
+#phrase-text {
   font-size: 20px;
- }
- #goon-button{
+  width: 70%;
+  margin-bottom: 30px;
+}
+#goon-button {
   padding: 7px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px #111;
- }
- #goon-button:hover{
+}
+#goon-button:hover {
   border-radius: 10px;
   box-shadow: 0px 0px 10px #fff;
- }
- 
+}
+
 /************ Home Css ************/
 .section-app {
   position: relative;
   height: 100%;
 }
-.card-theme{
+.card-theme {
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
- padding: 20px;
+  padding: 20px;
 }
 .card-theme:hover .theme {
   box-shadow: 4px 4px 10px var(--sixth-color);
 }
 .card-theme:hover .tit {
   color: var(--fourth-color);
-  text-shadow: 1px 1px 5px #fff ;
+  text-shadow: 1px 1px 5px #fff;
 }
 .menu-item {
   color: var(--sixth-color);
 }
-.tit{
+.tit {
   font-size: 20px;
   padding: 10px;
   margin: 10px;
@@ -311,7 +310,7 @@ span.header-text {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
-.subtit{
+.subtit {
   padding-top: 20px;
 }
 .themes {
@@ -391,18 +390,17 @@ span.header-text {
   text-align: center;
 }
 
-
 /**************workshops*************/
 .workshops-container {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   text-align: center;
   margin: 50px;
 }
 
 .workshop-item {
-  flex: 0 0 calc(33.33% - 20px); 
-  margin: 10px; 
+  flex: 0 0 calc(33.33% - 20px);
+  margin: 10px;
   background: var(--third-color);
   box-shadow: 0px 0px 10px #faf7f7;
   border-radius: 10px;
@@ -417,38 +415,62 @@ span.header-text {
   align-items: center;
   text-align: center;
 }
-.workshop-item img{
+.workshop-item img {
   width: 100px;
   margin-bottom: 15px;
 }
-.workshop-item p{
+.workshop-item p {
   font-size: 16px;
   font-weight: normal;
   line-height: 1.5;
 }
 @media (max-width: 767px) {
   .workshop-item {
-    flex: 0 0 calc(100%); 
+    flex: 0 0 calc(100%);
     font-size: 18px;
     font-weight: 400;
     margin: 10px;
   }
-  .workshop-item p{
+  .workshop-item p {
     font-size: 16px;
   }
 }
 
-/************ Contact Css ************/ 
-.title-form{
+/************ Contact Css ************/
+.title-form {
   background: #fff;
   color: var(--fourth-color);
+  border-radius: 5px;
 }
-.contact-icon{
+.contact-icon {
   width: 80px;
 }
+.contact-div {
+  width: 60%;
+  background-color: var(--fourth-color);
+  border-radius: 5px;
+}
+#contact {
+  display: flex;
+  justify-content: center;
+}
+.btn-send {
+  color: var(--first-color);
+  box-shadow: 0px 0px 10px #111;
+}
+.btn-send:hover {
+  letter-spacing: 1px;
+  font-weight: 600;
+  box-shadow: 0px 0px 10px #fff;
+}
+@media (max-width: 767px) {
+  .contact-div {
+    width: 95%;
+  }
+}
 
-/************ Footer Css ************/ 
-.footer-div{
+/************ Footer Css ************/
+.footer-div {
   padding: 40px 0 20px 0;
   background: var(--sixth-color);
   display: flex;

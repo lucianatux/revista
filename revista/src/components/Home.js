@@ -33,7 +33,7 @@ export const Home = () => {
           <a href="#game" className="menu-item">
             <div className="card-theme">
               <div className=" theme tema4"></div>
-              <p className="subtit"> Juego del mes</p>
+              <p className="subtit"> Sección de Juegos:</p>
               <p className="tit">El juego de la memoria</p>
             </div>
           </a>
