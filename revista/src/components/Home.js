@@ -1,6 +1,6 @@
 export const Home = () => {
   return (
-    <div >
+    <div className="section-app" >
       <div className="row p-5">
         <div className="themes col-sm-12 col-md-6">
           <a href="#one" className="menu-item">
