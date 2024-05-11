@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/revista/static/css/main.a3a93f9f.css",
-    "main.js": "/revista/static/js/main.08f4e6ff.js",
+    "main.css": "/revista/static/css/main.31f143e8.css",
+    "main.js": "/revista/static/js/main.4f04c8bd.js",
     "static/js/453.d0161fed.chunk.js": "/revista/static/js/453.d0161fed.chunk.js",
     "static/media/texture.jpg": "/revista/static/media/texture.ccbfb47b98ff503848c7.jpg",
     "static/media/goal.png": "/revista/static/media/goal.c68257d9349f41224e99.png",
@@ -36,12 +36,12 @@
     "static/media/nav-icon5.svg": "/revista/static/media/nav-icon5.5925320ec6423816272dec79bd272252.svg",
     "index.html": "/revista/index.html",
     "static/media/nav-icon4.svg": "/revista/static/media/nav-icon4.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.a3a93f9f.css.map": "/revista/static/css/main.a3a93f9f.css.map",
-    "main.08f4e6ff.js.map": "/revista/static/js/main.08f4e6ff.js.map",
+    "main.31f143e8.css.map": "/revista/static/css/main.31f143e8.css.map",
+    "main.4f04c8bd.js.map": "/revista/static/js/main.4f04c8bd.js.map",
     "453.d0161fed.chunk.js.map": "/revista/static/js/453.d0161fed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3a93f9f.css",
-    "static/js/main.08f4e6ff.js"
+    "static/css/main.31f143e8.css",
+    "static/js/main.4f04c8bd.js"
   ]
 }
