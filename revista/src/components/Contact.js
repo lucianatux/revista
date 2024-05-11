@@ -25,6 +25,7 @@ export const Contact = () => {
               id="email"
               name="email"
               placeholder="correo@ejemplo.com"
+              autoComplete="email" 
             />
           </div>
 
@@ -37,6 +38,7 @@ export const Contact = () => {
               name="name"
               placeholder="Nombre Apellido"
               required
+              autoComplete="name" 
             />
           </div>
 
@@ -49,6 +51,7 @@ export const Contact = () => {
               id="phone"
               placeholder="549 351"
               required
+              autoComplete="tel" 
             />
           </div>
 

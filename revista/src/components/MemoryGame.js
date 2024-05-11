@@ -90,7 +90,7 @@ export const MemoryGame = () => {
   },[]);
 
   return (
-    <div id="game" className="memory-game">
+    <div id="game" className="memory-game m-4">
       <h1 className="game-title">El Juego de la Memoria</h1>
       <button onClick={shuffleCards} className="new-game">
         Nuevo Juego

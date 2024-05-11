@@ -8,7 +8,7 @@ export const One = () => {
           <img src={imgOne} alt="" className="article-img" />
           En nuestra vida diaria, rara vez reflexionamos sobre el papel que 
           nuestro cuerpo desempeña en la formación de nuestra identidad y 
-          en el desarrollo de nuestro ser. ¿Qué tal si adoptáramos 
+          en el desarrollo de nuestro ser. ¿Qué tal si adoptásemos 
           permanentemente la afirmación: "El cuerpo es mi mayor herramienta"? 
           Incluso podríamos ir más lejos al considerarlo nuestra herramienta 
           "maestra". Esta idea nos lleva rápidamente a buscar nuestra 
