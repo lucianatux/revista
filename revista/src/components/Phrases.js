@@ -46,14 +46,13 @@ export const Phrases = () => {
 "«Si uno observa, verá que el cuerpo tiene su propia inteligencia; requiere de una gran dosis de inteligencia para observar la inteligencia del cuerpo.» Jiddu Krishnamurti",
 "«Si nos mantenemos totalmente atentos a lo que es, lo comprenderemos y nos veremos libres de ello; pero para estar atentos a lo que somos, tenemos que dejar de luchar por lo que no somos.» Jiddu Krishnamurti",
 "«Lo que se necesita, en lugar de escapar, controlar o suprimir o cualquier otra resistencia, es entender el miedo; ello significa mirarlo, aprender sobre él, ir a contactar con él. Hemos de aprender sobre el miedo, no cómo escapar de él.» Jiddu Krishnamurti",
-"«Desperdiciamos nuestra energía a causa del conflicto, riñas, miedo y vanidad. Cuando nuestra energía no se desperdicia en absoluto, tenemos toda la energía del mundo. En tanto nuestro cerebro no se deteriora a causa del conflicto, ambición, esfuerzo, lucha, sentimiento de soledad, desaliento, etc. tenemos energía en abundancia.» Jiddu Krishnamurti",
 "«Cuando la mente está completamente silenciosa, tanto en los niveles superficiales como en los profundos; lo desconocido, lo inconmensurable puede revelarse.» Jiddu Krishnamurti",
 "«Entre dos soluciones, opte siempre por la más generosa.» Jiddu Krishnamurti",
 "«Inteligencia es la capacidad para percibir lo esencial, lo que “es”, y educación es el proceso de despertar esta capacidad en nosotros mismos y en los demás.» Jiddu Krishnamurti",
 "«Para transformar el mundo debemos comenzar por nosotros mismos y lo que es importante de comenzar con nosotros mismos es la intención.» Jiddu Krishnamurti",
 "«Dile a tu amigo que en su muerte una parte de ti muere y va con él. Vaya donde vaya, tú también vas. No estará solo.» Jiddu Krishnamurti",
 "«El propio perfeccionamiento es la antítesis misma de la libertad y del aprender. Descubra cómo vivir sin comparar y verá que ocurre algo extraordinario.» Jiddu Krishnamurti",
-"«Ya me di al poder que mi destino rige. No me agarro ya de nada, para así no tener nada que defender. No tengo pensamientos, para así poder ver. No temo ya a nada, para así poder acordarme de mí. Sereno y desprendido, me dejará el águila pasar a la libertad. Encantamiento de Silvio Manuel.» Carlos Castaneda",
+"«Ya me di al poder que mi destino rige. No me agarro ya de nada, para así no tener nada que defender. No tengo pensamientos, para así poder ver. No temo ya a nada, para así poder acordarme de mí. Sereno y desprendido, me dejará el águila pasar a la libertad.» Carlos Castaneda",
 "«La libertad no está en ninguna ideología; la libertad está en el acto mismo de pensar.» Jiddu Krishnamurti",
 "«La mente que está quietamente en meditación, libre de todos los condicionamientos, es creativa.» Jiddu Krishnamurti",
 "«El arte de escuchar es muy importante. Si sabemos escuchar, es un gran instrumento de conocimiento, pero si escuchamos con comparación, con juicio, con opiniones, con nuestra experiencia, entonces, al escuchar, estamos escuchando nuestra propia charla.» Jiddu Krishnamurti",
@@ -140,7 +139,6 @@ export const Phrases = () => {
 "«Sabía quién era esta mañana, pero he cambiado varias veces desde entonces.» Lewis Carroll",
 "«Pues la regla es: mermelada mañana y mermelada ayer… pero nunca mermelada hoy.» Lewis Carroll",
 "«Es un tipo de memoria muy pobre la que solo funciona hacia atrás.» Lewis Carroll",
-"«[…]¿Podrías decirme, por favor, qué camino he de tomar para salir de aquí? —Depende mucho del punto adonde quieras ir —contestó el Gato. —Me da casi igual adónde —dijo Alicia. —Entonces no importa qué camino sigas —dijo el Gato. —…siempre que llegue a alguna parte —añadió Alicia, a modo de explicación. —¡Ah!, seguro que lo consigues —dijo el Gato—, si andas lo suficiente.» Lewis Carroll",
 "«¡No se pueden creer las cosas imposibles! —Será porque no lo has intentado—le dijo la Reina—. Cuando yo tenía tu edad, lo intentaba media hora cada día… A la hora del desayuno a veces ya me había creído seis cosas imposibles.» Lewis Carroll",
 "«¿Cuánto dura la eternidad? -preguntó Alicia- -A veces, solo un segundo -respondió el conejo.» Lewis Carroll",
 "«Las mejores personas están completamente locas.» Lewis Carroll",
@@ -175,7 +173,7 @@ export const Phrases = () => {
     }, 1000); // Adjust timeout for animation duration
   };
   return (
-    <div className="section-app" id="inicio">
+    <div id="inicio">
       <div className="phrase-button-div">
         <div className="text-button">
           Click aquí &#8594;
