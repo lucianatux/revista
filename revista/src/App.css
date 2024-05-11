@@ -93,8 +93,14 @@ span {
   left: 0;
   width: 120px;
   object-fit: contain;
-  animation-duration: 20s;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
+}
+@media(max-width: 360px) {
+  .logo,
+  .logo2 {
+    animation: none;
+  }
 }
 .logo {
   animation-name: unfade;
@@ -203,6 +209,11 @@ span.header-text {
     transform: rotate(-30deg);
   } /* Rotate to 360 degrees */
 }
+@media(max-width:568px) {
+.menu-div{
+  scale:2.8;
+}
+}
 
 /************phrases***********************/
 .phrase-button-div {
@@ -280,8 +291,7 @@ span.header-text {
 
 /************ Home Css ************/
 .section-app {
-  position: relative;
-  height: 100%;
+  width: 100%;
 }
 .card-theme {
   display: flex;
@@ -387,6 +397,11 @@ span.header-text {
   border-radius: 10px;
   scale: 1.2;
 }
+@media(max-width:768px){
+  .aboutus-img{
+    width: 200px;
+  }
+}
 .aboutus-title {
   text-align: center;
 }
@@ -472,12 +487,13 @@ span.header-text {
 
 /************ Footer Css ************/
 .footer-div {
-  padding: 40px 0 20px 0;
+  padding: 40px 0px 20px 0px;
   background: var(--sixth-color);
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 
 /************ MemoryGame Css ************/
 .game-title {
@@ -543,344 +559,3 @@ span.header-text {
   transition-delay: 0s;
 }
 
-/************ Skills Css ************/ /*
-.skill {
-  padding-top: 40px;
-  position: relative;
-  background-color: var(--sixth-color);
-
-}
-.skill-bx {
-  border-radius: 64px;
-  text-align: center;
-  padding: 30px 10px;
-}
-.skill h2 {
-	font-size: 45px;
-	font-weight: 700;
-  padding-bottom: 30px;
-  text-align: center;
-}
-.skill p {
-    color: var(--first-color);
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    margin: 5px 0 30px 0;
-}
-.skill-slider {
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
-}
-.skill-slider .item img {
-  width: 30%;
-  margin: 0 auto 0 auto;
-}
-.item{
-display: inline-block;
-}
-.owl-carousel .item img {
-  filter: invert(0.9);
-}
-
-/************ Projects Css ************/ /*
-.project {
-  padding: 40px 0;
-  position: relative;
-  background-color: var(--sixth-color);
-}
-.project h2 {
-	font-size: 45px;
-	font-weight: 700;
-  text-align: center;
-}
-.project p {
-  color: var(--fifth-color);
-  font-size: 18px;
-  margin: 14px auto 30px auto;
-  text-align: center;
-}
-.project .nav.nav-tabs {
-  width: 70%;
-  margin: 0 auto;
-  border-radius: 40px;
-  overflow: hidden;
-}
-.project .nav.nav-tabs .nav-item {
-  width: 33.3333%;
-}
-.project .nav.nav-tabs .nav-link {
-  padding: 17px 0;
-  color: var(--nineth-color);
-  font-size: 17px;
-  letter-spacing: 0.8px;
-  font-weight: 500;
-  position: relative;
-  transition: 0.3s ease-in-out;
-  text-align: center;
-  z-index: 0;
-}
-.project .nav.nav-tabs .nav-link::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 100%;
-    background-color: var(--third-color);
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: 0.3s ease-in-out;
-}
-.project .nav.nav-tabs .nav-link.active::before {
-    width: 100% !important;
-}
-.project .nav.nav-tabs .nav-link.active {
-    border: 1px solid var(--first-color);
-}
-.nav-link#projects-tabs-tab-first {
-  border: 1px solid var(--eighth-color);
-  border-radius: 55px 0px 0px 55px;
-}
-.nav-link#projects-tabs-tab-second {
-  border-top: 1px solid var(--eighth-color);
-  border-bottom: 1px solid var(--eighth-color);
-}
-.nav-link#projects-tabs-tab-third {
-  border: 1px solid var(--eighth-color);
-  border-radius: 0 55px 55px 0;
-}
-.cardproject{
-border: 2px solid var(--fifth-color);
-border-radius: 30px;
-overflow: hidden;
-margin: 15px;
-}
-.proj-txtx{
-  padding: 15px;
-  background: var(--first-color) ;
-  color: var(--sixth-color);
-}
-.arrowlink{
-  padding: 0 10px;
-  text-decoration: none;
-  font-size: 20px;
-  border: 1px solid var(--fifth-color);
-  border-radius: 8px;
-  margin-left: 5px;
-}
-.arrowlink:hover{
-  border: 3px solid var(--fifth-color);
-  font-weight: 500;
-}
-.divprojectcard {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-/************ Experience Css  Education Css************/ /*
-.experience, .education {
-  padding: 40px 0;
-  position: relative;
-  background-color: var(--sixth-color);
-}
-.experience h2, .education h2 {
-	font-size: 45px;
-	font-weight: 700;
-  text-align: center;
-  margin-bottom: 30px;
-}
-.experience p, .education p {
-  color: var(--fifth-color);
-  font-size: 18px;
-  /*margin: 14px auto 30px auto;*/ /*
-  text-align: center;
-}
-.experienceCard, .educationCard {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.card-imgbx {
-  position: relative;
-  border-radius: 30px;
-  overflow: hidden;
-  margin: 5px 5px 24px 5px;
-}
-.card-imgbx::before {
-  content: "";
-  background-color: var(--second-color);
-  opacity: 0.95;
-  position: absolute;
-  width: 100%;
-  height: 0;
-  transition: 0.4s ease-in-out;
-}
-.card-imgbx:hover::before {
-  height: 100%;
-}
-.card-txtx {
-  position: absolute;
-  text-align: center;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: 0.5s ease-in-out;
-  opacity: 0;
-  width: 100%;
-}
-.card-imgbx:hover .card-txtx {
-  top: 50%;
-  opacity: 1;
-}
-.card-txtx h4 {
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1.1em;
-}
-.card-txtx span {
-  font-style: italic;
-  font-weight: 400;
-  font-size: 15px;
-  letter-spacing: 0.8px;
-}
-.cardImg{
-  border-radius: 20px;
-  background: var(--first-color);
-}
-.doublecard{
-  max-width: 300px;
-  padding: 15px;
-}
-
-/************ Contact ************/ /*
-.contact {
-  padding: 30px 0 100px 0;
-  background-image: url("");
-  background-size: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.contact h2 {
-	font-size: 45px;
-	font-weight: 700;
-  margin-bottom: 20px;
-}
-.contact form input, .contact form textarea {
-  width: 100%;
-  background: var(--sixth-color);
-  border: 1px solid var(--eighth-color);
-  border-radius: 20px;
-  color: var(--first-color);
-  margin: 0 0 8px 0;
-  padding: 15px 20px;
-  font-weight: 500;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  transition: 0.3s ease-in-out;
-}
-.contact form input:focus, .contact form textarea:focus {
-  background: var(--first-color);
-  color: var(--sixth-color);
-}
-.contact form input::placeholder, .contact form textarea::placeholder {
-  font-size: 16px;
-  font-weight: 400;
-  color: var(--first-color);
-}
-.contact form input:focus::placeholder, .contact form textarea:focus::placeholder {
-  color: var(--sixth-color);
-  opacity: 0.8;
-}
-.contact form button {
-  font-weight: 700;
-  color: var(--sixth-color);
-  background-color: var(--first-color);
-  padding: 14px 48px;
-  font-size: 18px;
-  margin-top: 25px;
-  border-radius: 0;
-  position: relative;
-  transition: 0.3s ease-in-out;
-}
-.contact form button span {
-  z-index: 1;
-  position: relative;
-}
-.contact form button:hover {
-  color: var(--first-color);
-}
-.contact form button::before {
-  content: "";
-  background: var(--sixth-color);
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  transition: 0.3s ease-in-out;
-}
-.contact form button:hover::before {
-  width: 100%;
-}
-.email{
-  width: 50px;
-}
-
-.contact img {
-  animation: horizontalMotion 5s linear infinite;
-  transform-origin: center bottom;
-}
-
-@keyframes horizontalMotion {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(150px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-
-/************ Footer Css ************/ /*
-.footer {
-  padding: 0 0 50px 0;
- background-color: var(--sixth-color);
-}
-.new-email-bx {
-  background: var(--first-color);
-  padding: 5px;
-  border-radius: 20px;
-  position: relative;
-  z-index: 0;
-  display: flex;
-  align-items: center;
-}
-.new-email-bx::before {
-  content: "";
-  background: linear-gradient(90.21deg, var(--second-color) -5.91%, var(--third-color) 111.58%);
-  border-radius: 20px;
-  position: absolute;
-  z-index: -1;
-  top: -1px;
-  left: -1px;
-  bottom: -1px;
-  right: -1px;
-}
-.footer img {
-  width: 26%;
-}
-.footer p {
-  font-weight: 400;
-  font-size: 14px;
-  color: var(--fifth-color);
-  letter-spacing: 0.5px;
-  margin-top: 20px;
-}*/

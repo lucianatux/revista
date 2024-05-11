@@ -175,7 +175,7 @@ export const Phrases = () => {
     }, 1000); // Adjust timeout for animation duration
   };
   return (
-    <div className="section-app">
+    <div className="section-app" id="inicio">
       <div className="phrase-button-div">
         <div className="text-button">
           Click aquí &#8594;
