@@ -8,7 +8,7 @@ export const Header = () => {
   return (
     <div className="header">
       <div className="div-header">
-        <div className="logo-container m-2">
+        <div className="logo-container">
           <img src={logo} className="logo" alt="Logo" />
           <img src={logo2} className="logo2" alt="Logo2" />
         </div>
@@ -19,7 +19,7 @@ export const Header = () => {
         <Navbar expand="lg" className="justify-content-center">
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
-            className="bg-body-tertiary mx-4"
+            className="bg-body-tertiary mx-2"
           />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto align-items-center">

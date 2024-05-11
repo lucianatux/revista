@@ -18,7 +18,7 @@ export const Aboutus = () => {
         mente y alimentar tu espíritu. Únete a nosotros en este viaje de
         descubrimiento y exploración. Juntos, podemos abrirnos a nuevas
         posibilidades y encontrar un mayor significado en nuestra existencia.
-        ¡Bienvenido a nuestra comunidad de pensadores y buscadores de la verdad!
+        ¡Bienvenido a nuestra comunidad!
       </p>{" "}
     </div>
   );

@@ -3,7 +3,7 @@ import writing from "../assets/img/computadora-portatil.gif";
 export const Contact = () => {
   return (
     <div id="contact">
-      <div className="contact-div p-5 m-5" >
+      <div className="contact-div p-5 m-4" >
         <div className="text-center">
           <h4 className="title-form">
             Contáctanos y deja aquí tus comentarios e ideas
