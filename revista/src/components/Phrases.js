@@ -148,30 +148,24 @@ export const Phrases = () => {
 "«La cosa no tenía nada de muy especial, […] pero tampoco le pareció a Alicia que tuviera nada de muy extraño.» Lewis Carroll",
 "«¡Es de… lo más… irritante… -dijo al fin- que una persona no sepa distinguir una corbata de un cinturón! - Sé que es una terrible ignorancia por mi parte - dijo Alicia en un tono tan humilde que Tentetieso se aplacó.» Lewis Carroll",
 "«pues a esta curiosa criatura le gustaba mucho pretender que era dos personas a la vez.» Lewis Carroll"
-
-
-
-  
   ];
-
   const [selectedPhrase, setSelectedPhrase] = useState("");
-  const [isAnimating, setIsAnimating] = useState(false); // Track animation state
-
-
+  const [isAnimating, setIsAnimating] = useState(false); 
+  
   const selectRandomPhrase = () => {
     const randomIndex = Math.floor(Math.random() * phrasesarray.length);
     const randomPhrase = phrasesarray[randomIndex];
     setSelectedPhrase(randomPhrase);
   };
  
-
   const hidePhrase = () => {
-    setIsAnimating(true); // Set animation flag before hiding
+    setIsAnimating(true); 
     setTimeout(() => {
       setSelectedPhrase("");
-      setIsAnimating(false); // Reset animation flag after hiding
-    }, 1000); // Adjust timeout for animation duration
+      setIsAnimating(false); 
+    }, 1000); 
   };
+
   return (
     <div id="inicio">
       <div className="phrase-button-div">
