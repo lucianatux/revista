@@ -45,7 +45,7 @@ export const Header = () => {
                     <img src={navIcon5} alt="youtube-icon" />
                   </a>
                   <a
-                    href="https://www.facebook.com/groups/410686510468952/user/100079068583763/"
+                    href="https://www.facebook.com/profile.php?id=100079068583763"
                     target="_blank"
                     rel="noreferrer"
                   >
