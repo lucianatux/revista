@@ -2,7 +2,7 @@ import group from "../assets/img/goal.png";
 
 export const Aboutus = () => {
   return (
-    <div id="aboutus" className="article-div">
+    <div id="aboutus" className="article-div mb-5 p-5">
       <h1 className="aboutus-title">Nuestro propósito</h1>
       <img className=" aboutus-img" src={group} alt="img group" />
       <p className="article-p aboutus-text">

@@ -3,9 +3,9 @@ import writing from "../assets/img/computadora-portatil.gif";
 export const Contact = () => {
   return (
     <div id="contact">
-      <div className="contact-div p-5 m-4" >
-        <div className="text-center">
-          <h4 className="title-form">
+      <div className="contact-div" >
+        <div className="text-center title-form">
+          <h4>
             Contáctanos y deja aquí tus comentarios e ideas
             <img src={writing} alt="" className="contact-icon" />
           </h4>

@@ -1,9 +1,12 @@
 import imgTwo from "../assets/img/tema2.jpg";
+import { Link } from "react-router-dom";
+import arrow from "../assets/img/arrow.png";
 
 export const Two = () => {
   return (
     <div>
       <div id="two" className="article-div">
+      <Link to="/oldeditions"><button className="button-arrow"><img src={arrow} alt="" className="back-arrow"/></button></Link>
         <h1>
           La Forma de estar vinculados en las relaciones
         </h1>

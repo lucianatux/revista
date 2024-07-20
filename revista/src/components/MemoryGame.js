@@ -12,6 +12,9 @@ import memory9 from "../assets/img/game/stone.jpg";
 import memory10 from "../assets/img/game/treelife.jpg";
 import memory11 from "../assets/img/game/triskel.jpg";
 import memory12 from "../assets/img/game/yantra.jpg";
+import { Link } from "react-router-dom";
+import arrow from "../assets/img/arrow.png";
+
 
 const cardImages = [
   { src: memory1},
@@ -90,7 +93,8 @@ export const MemoryGame = () => {
   },[]);
 
   return (
-    <div id="game" className="memory-game m-4">
+    <div id="game" className="memory-game">
+                      <Link to="/oldeditions"><button className="button-arrow"><img src={arrow} alt="" className="back-arrow"/></button></Link>
       <h1 className="game-title">El Juego de la Memoria</h1>
       <button onClick={shuffleCards} className="new-game">
         Nuevo Juego

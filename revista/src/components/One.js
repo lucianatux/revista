@@ -1,8 +1,11 @@
 import imgOne from "../assets/img/tema1.jpg";
+import arrow from "../assets/img/arrow.png";
+import { Link } from "react-router-dom";
 
 export const One = () => {
   return (
       <div id="one" className="article-div">
+                <Link to="/oldeditions"><button className="button-arrow"><img src={arrow} alt="" className="back-arrow"/></button></Link>
         <h1>El cuerpo es nuestra mayor herramienta</h1>
         <p className="article-p">
           <img src={imgOne} alt="" className="article-img" />

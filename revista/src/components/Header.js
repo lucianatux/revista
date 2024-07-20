@@ -2,7 +2,8 @@ import navIcon5 from "../assets/img/nav-icon5.svg";
 import navIcon4 from "../assets/img/nav-icon4.svg";
 import logo from "../assets/img/ojo9.png";
 import logo2 from "../assets/img/ojo99a.png";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Dropdown } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
@@ -16,6 +17,7 @@ export const Header = () => {
           <h3 className="elojocuantico">El Ojo Cuántico</h3>
           <p className="text-light magazine">Revista digital de divulgación</p>
         </div>
+
         <Navbar expand="lg" className="justify-content-center">
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
@@ -23,17 +25,27 @@ export const Header = () => {
           />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto align-items-center">
-              <Nav.Link href="#inicio" className="tabs">
+              <Nav.Link as={Link} to="/" className="tabs">
                 Inicio
               </Nav.Link>
-              <Nav.Link href="#aboutus" className="tabs">
-                Nuestro propósito
-              </Nav.Link>
-              <Nav.Link href="#workshops" className="tabs">
-                Talleres
-              </Nav.Link>
-              <Nav.Link href="#contact" className="tabs">
-                Contacto
+              <Dropdown>
+                <Dropdown.Toggle className="tabs" variant="dark" id="dropdown-basic">
+                  Acerca de nosotros
+                </Dropdown.Toggle>
+                <Dropdown.Menu>
+                  <Dropdown.Item as={Link} to="/aboutus">
+                    Nuestro propósito
+                  </Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/workshops">
+                    Talleres
+                  </Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/contact">
+                    Contáctanos
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+              <Nav.Link as={Link} to="/oldeditions" className="tabs">
+                Más
               </Nav.Link>
               <span className="header-text">
                 <div className="social-icon">
@@ -53,6 +65,7 @@ export const Header = () => {
                   </a>
                 </div>
               </span>
+              <p className="text-light magazine">Edición n°2 Julio 2024</p>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

@@ -1,9 +1,12 @@
 import imgThree from '../assets/img/tema3.jpg';
+import { Link } from "react-router-dom";
+import arrow from "../assets/img/arrow.png";
 
 export const Three = () => {
   return (
     <div>
       <div id="three" className="article-div">
+      <Link to="/oldeditions"><button className="button-arrow"><img src={arrow} alt="" className="back-arrow"/></button></Link>
         <h1>Una nueva sensibilidad está naciendo</h1>
         <p className="article-p">
         <img src={imgThree} alt="" className="article-img"/>

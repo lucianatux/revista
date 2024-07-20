@@ -98,7 +98,6 @@ export const Phrases = () => {
 "«Sólo se ve bien con el corazón; lo esencial es invisible a los ojos» El Principito, Antoine de Saint-Exupéry",
 "«Haz de tu vida un sueño, y de tu sueño una realidad» El Principito, Antoine de Saint-Exupéry",
 "«Para ver claro, basta con cambiar la dirección de la mirada» El Principito, Antoine de Saint-Exupéry",
-"«Al primer amor se le quiere más, a los otros se les quiere mejor» El Principito, Antoine de Saint-Exupéry",
 "«Fue el tiempo que pasaste con tu rosa lo que la hizo tan importante» El Principito, Antoine de Saint-Exupéry",
 "«Para los vanidosos, los demás hombres son admiradores» El Principito, Antoine de Saint-Exupéry",
 "«Si vienes a las cuatro de la tarde, comenzaré a ser feliz desde las tres» El Principito, Antoine de Saint-Exupéry",
