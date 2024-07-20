@@ -9,7 +9,7 @@ import whatsapp from "../assets/img/whatsapp.png";
 export const Workshops = () => {
   return (
     <div className="workshop-div">
-      <h1 className="text-dark fw-bold">Nuestros Talleres</h1>
+      <h1 className="text-dark fw-bold p-4">Nuestros Talleres</h1>
       <div id="workshops" className="workshops-container">
         <div className="workshop-item">
           <img src={ws1} alt="" />

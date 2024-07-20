@@ -24,7 +24,7 @@ export const Interview = () => {
         revelarnos.
         <br />
         <br />
-        ¿Que esperás? Envíanos tu historia al email: gloria_carrizo@yahoo.com.ar
+        ¿Que esperás? Envíanos tu historia al email: elojocuantico@yahoo.com
         <br />
         <br />
         Tu voz es importante. <br />

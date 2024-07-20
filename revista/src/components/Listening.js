@@ -44,7 +44,7 @@ Extraído de 'La libertad primera y última' de Krishnamurti.
       <div style={{ width: "100%", height: "800px", border: "none" }}>
       <iframe
         src="https://lucianatux.github.io/escuchar/"
-        style={{ width: "100%", height: "100%", border: "none" }}
+        style={{ width: "100%", height: "80%", border: "none" }}
         title="Wordle"
       />
     </div>
