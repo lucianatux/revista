@@ -41,11 +41,10 @@ export const Listening = () => {
         <br/><br/>
 Extraído de 'La libertad primera y última' de Krishnamurti.
       </p>
-      <div style={{ width: "100%", height: "800px", border: "none" }}>
+      <div style={{ width: "100%", height: "80vh", border: "none" }}>
       <iframe
         src="https://lucianatux.github.io/escuchar/"
-        style={{ width: "100%", height: "80%", border: "none" }}
-        title="Wordle"
+        style={{ width: "100%", height: "100%", border: "none" }}
       />
     </div>
       <hr />

@@ -34,7 +34,10 @@ export const Poetic = () => {
       <h1>El fenómeno poético</h1>
       <br />
       <img src={imgPoetic2} alt="" className="article-img2" />
-      <h3><br/>Alrededor de la creación poética</h3>
+      <h3>
+        <br />
+        Alrededor de la creación poética
+      </h3>
       <h5>Por Olga Orozco, poeta argentina (Fragmento)</h5>
       <p className="article-p">
         <br />
@@ -130,30 +133,35 @@ export const Poetic = () => {
         <br /> Son ahora una mancha de humedad en las paredes del primer
         aposento”.
         <br />
-        <br/>
-        <hr />
         <br />
-        </p >
-        <h4>Conclusión</h4>
-        <p className="article-p">
-        El trazo de Olga salta y
-        se hunde, creando imágenes de mundos innombrados, de fuerzas surgidas en
-        otros reinos donde la palabra se mueve continuamente avanzando,
-        penetrando profundidades para impulsar su nuevo salto. Bajo el sol del
-        día, restalla en sonoridades cercanas al rezo, a la oración, a su dios o
-        diosa a la que entrega la imantación de sus mutaciones gramaticales... <br />Con
-        esto nos hace asistir a la encantación, a la magia o fuego primitivo del
-        lenguaje. <br />Aquí, el fenómeno poético se instaura como un mandala de finas
-        arenas de colores que se desvanecen por el amor de sus creadores. En
-        este caso, creadora Orozco, revelando que el lenguaje brota y muere para
-        volver a brotar o nacer en un dios, hoy aún extraño.<br /><br /> No se pierdan en la
-        próxima edición de la revista digital “El ojo Cuántico” la segunda
-        expedición al lenguaje de las artes: El fenómeno Pictórico.
+      </p>
+      <hr />
+      <br />
+      <h4>Conclusión</h4>
+      <p className="article-p">
+        El trazo de Olga salta y se hunde, creando imágenes de mundos
+        innombrados, de fuerzas surgidas en otros reinos donde la palabra se
+        mueve continuamente avanzando, penetrando profundidades para impulsar su
+        nuevo salto. Bajo el sol del día, restalla en sonoridades cercanas al
+        rezo, a la oración, a su dios o diosa a la que entrega la imantación de
+        sus mutaciones gramaticales... <br />
+        Con esto nos hace asistir a la encantación, a la magia o fuego primitivo
+        del lenguaje. <br />
+        Aquí, el fenómeno poético se instaura como un mandala de finas arenas de
+        colores que se desvanecen por el amor de sus creadores. En este caso,
+        creadora Orozco, revelando que el lenguaje brota y muere para volver a
+        brotar o nacer en un dios, hoy aún extraño.
+        <br />
+        <br /> No se pierdan en la próxima edición de la revista digital “El ojo
+        Cuántico” la segunda expedición al lenguaje de las artes: El fenómeno
+        Pictórico.
       </p>
       <hr />
       <a href={poeticPdf} target="_blank" rel="noreferrer">
-      <button className="download">Descargar pdf 
-      <img className="download-img invert" src={downloadImg} alt="" /></button>
+        <button className="download">
+          Descargar pdf
+          <img className="download-img invert" src={downloadImg} alt="" />
+        </button>
       </a>
     </div>
   );

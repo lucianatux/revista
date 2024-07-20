@@ -397,12 +397,12 @@ span.header-text {
   margin: auto;
 }
 .article-div {
-  width: 80%;
+  width: 90%;
   margin: 92px auto;
   margin-bottom: 30px;
   background: var(--third-color);
   border-radius: 10px;
-  padding: 8% 5%;
+  padding: 30px 30px;
 }
 .article-p {
   font-size: 22px;
@@ -453,6 +453,15 @@ span.header-text {
   }
   .article-p{
     font-size: 18px;
+  }
+  .article-img {
+    width: 150px;
+  }
+  .article-img2{
+    width: 250px;
+  }
+  .article-img3{
+    width: 350px;
   }
 }
 .button-arrow{
