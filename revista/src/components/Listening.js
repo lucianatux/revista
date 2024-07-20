@@ -48,7 +48,7 @@ export const Listening = () => {
         <hr />
       </div>
       <div className="exp-int">
-        <h4 className="py-3 px-5">Profundiza lo leído con esta experiencia interactiva</h4>
+        <h4 className="exp-title">Profundiza lo leído con esta experiencia interactiva</h4>
         <br />
         <div style={{ width: "100%", height: "80vh", border: "none" }}>
           <iframe

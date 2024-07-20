@@ -467,6 +467,11 @@ span.header-text {
 .exp-int{
   background: var(--third-color);
 }
+.exp-title{
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
 .button-arrow{
   padding: 8px;
   border-radius: 6px;
