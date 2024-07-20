@@ -167,9 +167,9 @@ export const Interview = () => {
       <p className="text-right article-p">Nora Gómez</p>
 
       <hr />
-      <button className="audio-btn">Escuchar fragmento de la entrevista
-      <img className="audio-img" src={audioimg} alt="" />
-    <audio controls>
+      <p className="audio-title">Escuchar fragmento de la entrevista<img className="audio-img" src={audioimg} alt="" /></p>
+      <button className="audio-btn">
+    <audio className="audiocontrols" controls>
   <source src={audioentrevista} type="audio/mpeg"/>
 </audio>
       </button>

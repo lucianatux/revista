@@ -490,6 +490,11 @@ span.header-text {
     width: 15px;
   }
 }
+
+.audio-title{
+  text-align: center;
+padding: 20px;
+}
 .audio-btn{
   background: #fff;
   border-radius: 15px;
@@ -503,6 +508,15 @@ span.header-text {
   width: 50px;
   margin: 0 10px;
 }
+@media(max-width:568px){
+  .audio-img{
+    display: none;
+  }
+  .audiocontrols{
+    width: 250px;
+  }
+}
+
 /************ About us Css ************/
 .aboutus-img {
   width: 250px;
