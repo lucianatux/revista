@@ -2,7 +2,7 @@
   "name": "revista",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://lucianatux.github.io/revista",
+  "homepage": "https://ojocuantico.website",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.0.0",
     "@testing-library/jest-dom": "^5.17.0",
