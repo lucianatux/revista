@@ -25,7 +25,7 @@ export const Header = () => {
           />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto align-items-center">
-              <Nav.Link as={Link} to="/" className="tabs">
+              <Nav.Link as={Link} to="/revista/" className="tabs">
                 Inicio
               </Nav.Link>
               <Dropdown>
