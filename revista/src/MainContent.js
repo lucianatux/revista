@@ -23,7 +23,7 @@ function MainContent() {
 
   return (
     <>
-      {location.pathname === "/" && <Home />}
+      {location.pathname === "/revista/" && <Home />}
       <Routes>
         <Route path="/one" element={<One />} />
         <Route path="/two" element={<Two />} />
