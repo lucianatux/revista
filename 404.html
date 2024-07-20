@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Page Not Found</title>
+    <meta http-equiv="refresh" content="0; url=/" />
+    <script>
+      // Este script redirige a la página de inicio
+      var pathname = window.location.pathname;
+      if (pathname !== "/") {
+        window.location.replace("/revista" + pathname);
+      }
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>

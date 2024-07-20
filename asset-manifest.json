@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/revista/static/css/main.f9151bb2.css",
-    "main.js": "/revista/static/js/main.a86ce1e1.js",
+    "main.css": "/revista/static/css/main.2a13766d.css",
+    "main.js": "/revista/static/js/main.abe2b53e.js",
     "static/js/453.ea4051ea.chunk.js": "/revista/static/js/453.ea4051ea.chunk.js",
     "static/media/noraentrevista.mp3": "/revista/static/media/noraentrevista.dd61fbbd426be4a89c81.mp3",
     "static/media/texture.jpg": "/revista/static/media/texture.ccbfb47b98ff503848c7.jpg",
@@ -47,12 +47,12 @@
     "index.html": "/revista/index.html",
     "static/media/nav-icon5.svg": "/revista/static/media/nav-icon5.5925320ec6423816272dec79bd272252.svg",
     "static/media/nav-icon4.svg": "/revista/static/media/nav-icon4.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.f9151bb2.css.map": "/revista/static/css/main.f9151bb2.css.map",
-    "main.a86ce1e1.js.map": "/revista/static/js/main.a86ce1e1.js.map",
+    "main.2a13766d.css.map": "/revista/static/css/main.2a13766d.css.map",
+    "main.abe2b53e.js.map": "/revista/static/js/main.abe2b53e.js.map",
     "453.ea4051ea.chunk.js.map": "/revista/static/js/453.ea4051ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9151bb2.css",
-    "static/js/main.a86ce1e1.js"
+    "static/css/main.2a13766d.css",
+    "static/js/main.abe2b53e.js"
   ]
 }
