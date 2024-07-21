@@ -16,18 +16,18 @@ export const Poetic = () => {
       <h4>Columna "El lenguaje de las artes" por Mariano Gentile</h4>
       <p className="article-p">
         <img src={imgPoetic1} alt="" className="article-img" />
-        Queridos lectores no puedo empezar a escribir sin antes advertir que lo
-        que estamos por acometer no es alimento ligero, sino un ritual literario
+        Queridos lectores, no puedo empezar a escribir sin antes advertir que lo
+        que estamos por acometer no es alimento ligero sino un ritual literario
         con el fin de dar, tras su degustación, quizás con lo abstracto, de cara
-        a lo que aún no ha surgido con cuerpo alguno y es solo accesible por la
+        a lo que aún no ha surgido con cuerpo alguno y es sólo accesible por la
         intuición que comienza su vuelo en la quietud de todas las cosas.
         Intentar escuchar el lenguaje de las artes es como excavar en los
-        sedimentos de la historia buscando una veta eterna que nos lleve a la
+        sedimentos de la historia, buscando una veta eterna que nos lleve a la
         "pulsión hacedora" que deja la vida ardiente. Esta columna explora las
-        diciplinas artísticas persiguiendo el átomo creativo, aquella partícula
-        esencial a todas y de las que todas las diciplinas se componen. A través
+        disciplinas artísticas persiguiendo el átomo creativo, aquella partícula
+        esencial a todas y de las que todas las disciplinas se componen. A través
         de diferentes artistas, a través de como ellos sienten y conciben lo que
-        hacen haremos nuestro ritual para contactar y presenciar a la "esencia
+        hacen, haremos nuestro ritual para contactar y presenciar a la "esencia
         creadora".
       </p>
       <br />
@@ -53,7 +53,7 @@ export const Poetic = () => {
         que recibe el dictado del oráculo y descifra las señales del porvenir,
         una reina de las nieves con su regazo colmado de cristales casi
         algebraicos, una criatura alucinada con la cabeza sumergida en una nube
-        de insectos zumbadores. una anciana que riega las plantas de un reducido
+        de insectos zumbadores, una anciana que riega las plantas de un reducido
         jardín, una heroína que canta en medio de la hoguera, un pájaro que
         huye, una boca cerrada. <br />
         <br /> Las imágenes creadas por sus resonancias se fijan, se superponen,
@@ -143,7 +143,7 @@ export const Poetic = () => {
         innombrados, de fuerzas surgidas en otros reinos donde la palabra se
         mueve continuamente avanzando, penetrando profundidades para impulsar su
         nuevo salto. Bajo el sol del día, restalla en sonoridades cercanas al
-        rezo, a la oración, a su dios o diosa a la que entrega la imantación de
+        rezo, a la oración a su dios o diosa a la que entrega la imantación de
         sus mutaciones gramaticales... <br />
         Con esto nos hace asistir a la encantación, a la magia o fuego primitivo
         del lenguaje. <br />
