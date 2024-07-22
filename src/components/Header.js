@@ -6,15 +6,19 @@ import { Navbar, Nav, Dropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useRef } from "react";
 
-
 export const Header = () => {
   const navbarCollapseRef = useRef(null);
 
   const handleNavLinkClick = () => {
-    if (navbarCollapseRef.current && navbarCollapseRef.current.classList.contains('show')) {
-      navbarCollapseRef.current.classList.remove('show');
+    if (navbarCollapseRef.current) {
+      const collapseElement = navbarCollapseRef.current;
+      if (collapseElement.classList.contains('show')) {
+        const bsCollapse = new window.bootstrap.Collapse(collapseElement, { toggle: false });
+        bsCollapse.hide();
+      }
     }
   };
+
   return (
     <div className="header">
       <div className="div-header">
@@ -32,7 +36,7 @@ export const Header = () => {
             aria-controls="basic-navbar-nav"
             className="bg-body-tertiary mx-2"
           />
-          <Navbar.Collapse id="basic-navbar-nav"  ref={navbarCollapseRef}>
+          <Navbar.Collapse id="basic-navbar-nav" ref={navbarCollapseRef}>
             <Nav className="me-auto align-items-center">
               <Nav.Link as={Link} to="/" className="tabs" onClick={handleNavLinkClick}>
                 Inicio
@@ -82,3 +86,4 @@ export const Header = () => {
     </div>
   );
 };
+
