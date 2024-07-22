@@ -1,23 +1,23 @@
+import { Navbar, Nav, Dropdown } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { useState} from 'react';
 import navIcon5 from "../assets/img/nav-icon5.svg";
 import navIcon4 from "../assets/img/nav-icon4.svg";
 import logo from "../assets/img/ojo9.png";
 import logo2 from "../assets/img/ojo99a.png";
-import { Navbar, Nav, Dropdown } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import { useRef } from "react";
+
+
 
 export const Header = () => {
-  const navbarCollapseRef = useRef(null);
+  const [expanded, setExpanded] = useState(false);
 
   const handleNavLinkClick = () => {
-    if (navbarCollapseRef.current) {
-      const collapseElement = navbarCollapseRef.current;
-      if (collapseElement.classList.contains('show')) {
-        const bsCollapse = new window.bootstrap.Collapse(collapseElement, { toggle: false });
-        bsCollapse.hide();
-      }
-    }
+    setExpanded(false);
   };
+  
+
+
+
 
   return (
     <div className="header">
@@ -35,8 +35,9 @@ export const Header = () => {
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             className="bg-body-tertiary mx-2"
+            onClick={() => setExpanded(!expanded)}
           />
-          <Navbar.Collapse id="basic-navbar-nav" ref={navbarCollapseRef}>
+          <Navbar.Collapse in={expanded} id="basic-navbar-nav">
             <Nav className="me-auto align-items-center">
               <Nav.Link as={Link} to="/" className="tabs" onClick={handleNavLinkClick}>
                 Inicio
