@@ -27,20 +27,20 @@ export const Home = () => {
           </Link>
         </div>
         <div className="themes col-sm-12 col-md-6">
-          <Link to="/listening">
+          <Link to="/newmirada">
             <div className="card-theme">
               <div className=" theme tema3"></div>
               <p className="subtit">Artículo n° 3</p>
-              <p className="tit">Escuchar de verdad</p>
+              <p className="tit">Una nueva mirada. La crisis personal, un reflejo de lo social</p>
             </div>
           </Link>
         </div>
         <div className="themes col-sm-12 col-md-6 ">
-          <Link to="/wordle">
+          <Link to="/jump">
             <div className="card-theme">
-              <div className=" theme game-wordle"></div>
-              <p className="subtit"> Sección de Juegos:</p>
-              <p className="tit">Nuestro Wordle</p>
+              <div className=" theme tema4"></div>
+              <p className="subtit"> Nuevo Juego:</p>
+              <p className="tit">El Juego de Saltar</p>
             </div>
           </Link>
         </div>

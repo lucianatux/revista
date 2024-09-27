@@ -15,6 +15,7 @@ import { Interview } from './components/Interview';
 import { Listening } from './components/Listening';
 import { Wordle } from './components/Wordle';
 import {Jump } from './components/Jump';
+import { NewMirada } from './components/NewMirada';
 
 function MainContent() {
   const location = useLocation();
@@ -27,20 +28,23 @@ function MainContent() {
     <>
       {location.pathname === "/" && <Home />}
       <Routes>
-        <Route path="/one" element={<One />} />
-        <Route path="/two" element={<Two />} />
-        <Route path="/three" element={<Three />} />
-        <Route path="/memory-game" element={<MemoryGame />} />
-        <Route path="/aboutus" element={<Aboutus />} />
+      <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/workshops" element={<Workshops />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/oldeditions" element={<OldEditions />} />
         <Route path="/games" element={<Games />} />
+        <Route path="/memory-game" element={<MemoryGame />} />
+        <Route path="/wordle" element={<Wordle />} />
+        <Route path="/jump" element={<Jump />} />
+        <Route path="/one" element={<One />} />
+        <Route path="/two" element={<Two />} />
+        <Route path="/three" element={<Three />} />
         <Route path="/poetic" element={<Poetic />} />
         <Route path="/interview" element={<Interview />} />
         <Route path="/listening" element={<Listening />} />
-        <Route path="/wordle" element={<Wordle />} />
-        <Route path="/jump" element={<Jump />} />
+        <Route path="/newmirada" element={<NewMirada />} />
+
+
       </Routes>
     </>
   );
