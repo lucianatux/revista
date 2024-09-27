@@ -360,20 +360,22 @@ span.header-text {
   background-size: cover;
   box-shadow: 0 0 10px var(--sixth-color);
 }
+/*
 .tema1 {
-  background-image: url("../src/assets/img/poetic.jpeg");
+  background-image: url("../src/assets/img/");
 }
 .tema2 {
-  background-image: url("../src/assets/img/entrevista.jpg");
+  background-image: url("../src/assets/img/");
 }
+.game-wordle{
+  background-image: url("../src/assets/img/wordle2.jpg");
+}*/
+
 .tema3 {
   background-image: url("../src/assets/img/newmirada2.jpg");
 }
 .tema4 {
   background-image: url("../src/assets/img/jumping3.jpg");
-}
-.game-wordle{
-  background-image: url("../src/assets/img/wordle2.jpg");
 }
 .titles {
   height: 120px;
