@@ -59,7 +59,10 @@ export const Header = () => {
                 </Dropdown.Menu>
               </Dropdown>
               <Nav.Link as={Link} to="/oldeditions" className="tabs" onClick={handleNavLinkClick}>
-                Más
+                Ediciones anteriores
+              </Nav.Link>
+              <Nav.Link as={Link} to="/games" className="tabs" onClick={handleNavLinkClick}>
+                Juegos
               </Nav.Link>
               <span className="header-text">
                 <div className="social-icon">

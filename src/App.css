@@ -8,13 +8,15 @@
 :root {
   --first-color: #e6e6e6;
   --second-color: #c44285;
-  --third-color: #01010188;
+  --third-color: #010101a5;
   --fourth-color: #176589;
   --fifth-color: #999;
   --sixth-color: #010101;
   --seventh-color: #d9d9d91a;
   --eighth-color: #0c3b50;
   --nineth-color: #092c3c87;
+  --tenth-color: #c4428599;
+
 }
 
 /************ Default Css ************/
@@ -736,6 +738,13 @@ padding: 20px;
   border-radius: 20px;
   background: var(--nineth-color);
 }
+.games-edition{
+  margin: 20px;
+  padding-top: 20px;
+  min-width: 300px;
+  border-radius: 20px;
+  background: var(--tenth-color);
+}
 
 .old-articles {
   display: flex;
@@ -762,8 +771,10 @@ padding: 20px;
 }
 .small-img{
   width: 80px !important;
-  border-radius: 15px !important;
+  border-radius: 10px !important;
   margin-right: 10px !important;
+  border: 2px solid var(--eighth-color);
+
 }
 .elem-article-div{
   display: flex;
@@ -796,6 +807,12 @@ padding: 20px;
 /************ Wordle Css ************/
 
 .wordle-div{
+  margin: 5%;
+  margin-top: 92px;
+}
+/************ Jump Css ************/
+
+.jump-div{
   margin: 5%;
   margin-top: 92px;
 }

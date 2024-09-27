@@ -9,10 +9,12 @@ import { Aboutus } from './components/Aboutus';
 import { Workshops } from './components/Workshops';
 import { Contact } from './components/Contact';
 import { OldEditions } from './components/OldEditions';
+import { Games } from './components/Games';
 import { Poetic } from './components/Poetic';
 import { Interview } from './components/Interview';
 import { Listening } from './components/Listening';
 import { Wordle } from './components/Wordle';
+import {Jump } from './components/Jump';
 
 function MainContent() {
   const location = useLocation();
@@ -33,10 +35,12 @@ function MainContent() {
         <Route path="/workshops" element={<Workshops />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/oldeditions" element={<OldEditions />} />
+        <Route path="/games" element={<Games />} />
         <Route path="/poetic" element={<Poetic />} />
         <Route path="/interview" element={<Interview />} />
         <Route path="/listening" element={<Listening />} />
         <Route path="/wordle" element={<Wordle />} />
+        <Route path="/jump" element={<Jump />} />
       </Routes>
     </>
   );
