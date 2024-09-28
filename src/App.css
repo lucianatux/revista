@@ -8,7 +8,7 @@
 :root {
   --first-color: #e6e6e6;
   --second-color: #c44285;
-  --third-color: #010101a5;
+  --third-color: #010101bd;
   --fourth-color: #176589;
   --fifth-color: #999;
   --sixth-color: #010101;
@@ -361,16 +361,19 @@ span.header-text {
   box-shadow: 0 0 10px var(--sixth-color);
 }
 /*
-.tema1 {
-  background-image: url("../src/assets/img/");
-}
+
 .tema2 {
   background-image: url("../src/assets/img/");
 }
 .game-wordle{
   background-image: url("../src/assets/img/wordle2.jpg");
 }*/
-
+.tema1 {
+  background-image: url("../src/assets/img/kandinsky.jpg");
+}
+.tema2 {
+  background-image: url("../src/assets/img/quan3.jpg");
+}
 .tema3 {
   background-image: url("../src/assets/img/newmirada2.jpg");
 }
@@ -407,6 +410,8 @@ span.header-text {
   background: var(--third-color);
   border-radius: 10px;
   padding: 30px 30px;
+  letter-spacing: 1px;
+
 }
 .article-p {
   font-size: 22px;

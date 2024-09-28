@@ -7,22 +7,22 @@ export const Home = () => {
       <Phrases />
       <div className="row p-5">
         <div className="themes col-sm-12 col-md-6">
-          <Link to="/poetic">
+          <Link to="/pictorial">
             <div className="card-theme">
               <div className=" theme tema1"></div>
               <p className="subtit">Artículo n° 1</p>
               <p className="section-tit">Columna: El Lenguaje de las Artes</p>
-              <p className="tit">El fenómeno poético</p>
+              <p className="tit">El Fenómeno Pictórico</p>
             </div>
           </Link>
         </div>
         <div className="themes col-sm-12 col-md-6 ">
-          <Link to="/interview">
+          <Link to="/quantum">
             <div className="card-theme">
               <div className=" theme tema2"></div>
               <p className="subtit"> Artículo n° 2</p>
-              <p className="section-tit">Columna: Espacio Integrador</p>
-              <p className="tit">Entrevista a Nora Gómez</p>
+              <p className="section-tit">Columna: Misterios del Universo</p>
+              <p className="tit">El Mundo Cuántico: Una realidad que nos asombra</p>
             </div>
           </Link>
         </div>

@@ -176,7 +176,6 @@ export const Phrases = () => {
             id="phrase-button"
             onClick={selectRandomPhrase}
           />
-          <br /> para obtener tu frase al azar
         </div>
       </div>
       <div

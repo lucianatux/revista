@@ -16,6 +16,9 @@ import { Listening } from './components/Listening';
 import { Wordle } from './components/Wordle';
 import {Jump } from './components/Jump';
 import { NewMirada } from './components/NewMirada';
+import { Pictorial } from './components/Pictorial';
+import { Quantum } from './components/Quantum';
+
 
 function MainContent() {
   const location = useLocation();
@@ -43,6 +46,10 @@ function MainContent() {
         <Route path="/interview" element={<Interview />} />
         <Route path="/listening" element={<Listening />} />
         <Route path="/newmirada" element={<NewMirada />} />
+        <Route path="/pictorial" element={<Pictorial />} />
+        <Route path="/quantum" element={<Quantum />} />
+
+
 
 
       </Routes>
