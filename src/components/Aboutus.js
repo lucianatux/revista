@@ -11,8 +11,8 @@ export const Aboutus = () => {
         comprensión del mundo y de nosotros mismos. Nos dedicamos a comunicar y
         compartir las nuevas perspectivas que surgen en el ámbito
         humano-espiritual, abriendo espacio para la reflexión y el crecimiento
-        personal.  Nuestra misión es proporcionar un espacio donde
-        puedas encontrar inspiración, información y nuevas formas de entender la
+        personal.  Nuestra misión es compartir en este espacio todo aquello que nos
+        inspira y las nuevas formas de entender la
         realidad. Desde análisis profundos hasta reflexiones personales, nuestra
         revista ofrece una variedad de contenidos diseñados para estimular tu
         mente y alimentar tu espíritu. Únete a nosotros en este viaje de

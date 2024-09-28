@@ -821,4 +821,7 @@ padding: 20px;
 .jump-div{
   margin: 5%;
   margin-top: 92px;
+  padding: 5px;
+  text-align: center;
+  color:var(--sixth-color);
 }

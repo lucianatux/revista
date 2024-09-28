@@ -94,7 +94,7 @@ export const MemoryGame = () => {
 
   return (
     <div id="game" className="memory-game p-3">
-                      <Link to="/oldeditions"><button className="button-arrow"><img src={arrow} alt="" className="back-arrow"/></button></Link>
+                      <Link to="/games"><button className="button-arrow"><img src={arrow} alt="" className="back-arrow"/></button></Link>
       <h1 className="game-title">El Juego de la Memoria</h1>
       <button onClick={shuffleCards} className="new-game">
         Nuevo Juego

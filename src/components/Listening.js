@@ -6,7 +6,7 @@ export const Listening = () => {
   return (
     <div>
       <div id="listening" className="article-div">
-        <Link to="/">
+        <Link to="/oldeditions">
           <button className="button-arrow">
             <img src={arrow} alt="" className="back-arrow" />
           </button>

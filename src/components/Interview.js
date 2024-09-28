@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 export const Interview = () => {
   return (
     <div id="interview" className="article-div">
-      <Link to="/">
+      <Link to="/oldeditions">
         <button className="button-arrow">
           <img src={arrow} alt="" className="back-arrow" />
         </button>
