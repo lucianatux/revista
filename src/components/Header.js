@@ -82,7 +82,7 @@ export const Header = () => {
                   </a>
                 </div>
               </span>
-              <p className="text-light magazine">Edición n°3 Septiembre 2024</p>
+              <p className="text-light magazine">Edición n°4 Diciembre 2024</p>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

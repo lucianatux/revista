@@ -369,17 +369,19 @@ span.header-text {
   background-image: url("../src/assets/img/wordle2.jpg");
 }*/
 .tema1 {
-  background-image: url("../src/assets/img/kandinsky.jpg");
+  background-image: url("../src/assets/img/teatro2.jpg");
 }
 .tema2 {
-  background-image: url("../src/assets/img/quan3.jpg");
+  background-image: url("../src/assets/img/time2.jpg");
 }
+/*
 .tema3 {
   background-image: url("../src/assets/img/newmirada2.jpg");
 }
 .tema4 {
   background-image: url("../src/assets/img/jumping3.jpg");
 }
+  */
 .titles {
   height: 120px;
   margin: 10px 0;
@@ -416,6 +418,7 @@ span.header-text {
   font-size: 22px;
   line-height: 1.5;
   padding: 20px 0;
+  text-indent: 3em;
 }
 .article-img {
   width: 250px;
@@ -816,13 +819,12 @@ padding: 20px;
   }
 }
 
-/************ Wordle Css ************/
+/************ Games Css ************/
 
 .wordle-div{
   margin: 5%;
   margin-top: 92px;
 }
-/************ Jump Css ************/
 
 .jump-div{
   margin: 5%;
@@ -830,4 +832,12 @@ padding: 20px;
   padding: 5px;
   text-align: center;
   color:var(--sixth-color);
+}
+
+.crossword-div{
+  margin: 5%;
+  margin-top: 92px;
+  padding: 5px;
+  text-align: center;
+  color:var(--second-color);
 }

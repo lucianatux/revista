@@ -18,6 +18,9 @@ import {Jump } from './components/Jump';
 import { NewMirada } from './components/NewMirada';
 import { Pictorial } from './components/Pictorial';
 import { Quantum } from './components/Quantum';
+import { Scene } from './components/Scene';
+import { TimeSpace } from './components/TimeSpace';
+import { Crossword } from './Crossword';
 
 
 function MainContent() {
@@ -48,7 +51,9 @@ function MainContent() {
         <Route path="/newmirada" element={<NewMirada />} />
         <Route path="/pictorial" element={<Pictorial />} />
         <Route path="/quantum" element={<Quantum />} />
-
+        <Route path="/scene" element={<Scene />} />
+        <Route path="/timespace" element={<TimeSpace />} />
+        <Route path="/crossword" element={<Crossword />} />
 
 
 
