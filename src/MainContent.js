@@ -21,6 +21,7 @@ import { Quantum } from './components/Quantum';
 import { Scene } from './components/Scene';
 import { TimeSpace } from './components/TimeSpace';
 import { Crossword } from './Crossword';
+import { Body } from './components/Body';
 
 
 function MainContent() {
@@ -54,6 +55,7 @@ function MainContent() {
         <Route path="/scene" element={<Scene />} />
         <Route path="/timespace" element={<TimeSpace />} />
         <Route path="/crossword" element={<Crossword />} />
+        <Route path="/body" element={<Body />} />
 
 
 

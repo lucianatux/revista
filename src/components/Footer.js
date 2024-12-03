@@ -7,7 +7,7 @@ export const Footer = () => {
       <div className="mx-4">
         <h3 className="elojocuantico">El Ojo Cuántico</h3>
         <p className="text-light magazine">Revista digital de divulgación</p>
-        <p className="p-3 text-light magazine"> Edición n°3  Septiembre 2024</p>
+        <p className="p-3 text-light magazine"> Edición n°4  Diciembre 2024</p>
       </div>
       <div className="row mx-2 text-center">
         <div className="col-12 col-sm-auto">
