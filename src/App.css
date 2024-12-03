@@ -378,10 +378,11 @@ span.header-text {
 .tema3 {
   background-image: url("../src/assets/img/newmirada2.jpg");
 }
-.tema4 {
-  background-image: url("../src/assets/img/jumping3.jpg");
-}
   */
+.tema4 {
+  background-image: url("../src/assets/img/crossword2.jpg");
+}
+  
 .titles {
   height: 120px;
   margin: 10px 0;

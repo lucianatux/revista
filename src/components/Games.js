@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import memoryGame from "../assets/img/memo4.jpg";
 import wordleGame from "../assets/img/wordle.jpg";
 import jumping from "../assets/img/jumping3.jpg";
+import crossword from "../assets/img/crossword2.jpg";
 
 
 export const Games = () => {
@@ -11,6 +12,12 @@ export const Games = () => {
       <div className="old-editions">
         <div className="games-edition">
           <div className="old-articles">
+          <Link to="/crossword">
+              <div className="elem-article-div">
+                <img src={crossword} alt="" className="small-img" />
+                <p>Crucigrama</p>
+              </div>
+            </Link>
           <Link to="/jump">
               <div className="elem-article-div">
                 <img src={jumping} alt="" className="small-img" />

@@ -22,7 +22,7 @@ export const TimeSpace = () => {
        
       </p>
       <br />
-      <h1>EL TIEMPO Y EL ESPACIO: ENTRE LA CIENCIA Y EL MISTERIO</h1>
+      <h3>EL TIEMPO Y EL ESPACIO: ENTRE LA CIENCIA Y EL MISTERIO</h3>
       <br />
       <img src={imgTime} alt="" className="article-img2" />
 
