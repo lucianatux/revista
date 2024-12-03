@@ -12,14 +12,14 @@ export const TimeSpace = () => {
       </Link>
       <h4>Columna "Misterios del Universo"</h4>
       <p className="article-p">
-      Queridos lectores de El Ojo Cuántico, hoy les propongo un viaje que nos
+        Queridos lectores de El Ojo Cuántico, hoy les propongo un viaje que nos
         llevará a explorar dos de los conceptos más fundamentales y misteriosos
         del universo: el tiempo y el espacio. Para algunos, son solo el telón de
         fondo de nuestra vida diaria, algo que damos por sentado al mirar un
-        reloj o al caminar por la calle. Pero para científicos, filósofos y
-        místicos, el tiempo y el espacio son mucho más: son los pilares de la
-        existencia, una danza infinita que seguimos intentando descifrar.
-       
+        reloj o al caminar por la calle. Pero desde un punto de vista
+        científico, filosófico, o espiritual, el tiempo y el espacio
+        son mucho más: son los pilares de la existencia, una danza infinita que
+        seguimos intentando descifrar.
       </p>
       <br />
       <h3>EL TIEMPO Y EL ESPACIO: ENTRE LA CIENCIA Y EL MISTERIO</h3>
@@ -81,7 +81,7 @@ export const TimeSpace = () => {
         eventos en nuestra mente.
       </p>
       <hr></hr>
-      <br/>
+      <br />
       <h3>La visión mística: el eterno presente</h3>
       <p className="article-p">
         La ciencia no es la única que ha reflexionado sobre el tiempo y el
@@ -107,7 +107,7 @@ export const TimeSpace = () => {
         comprensión humana.
       </p>
       <hr></hr>
-      <br/>
+      <br />
       <h3>Entre la ciencia y la mística: un misterio compartido</h3>
       <p className="article-p">
         ¿Qué nos queda de todo esto? Ya sea desde la ciencia o desde la
@@ -127,7 +127,7 @@ export const TimeSpace = () => {
       </p>
       <p className="article-p">
         Hasta la próxima, queridos lectores, sigamos explorando juntos. Porque
-        al final, el tiempo y el espacio no son solo conceptos; son puertas que
+        al final, el tiempo y el espacio no son sólo conceptos; son puertas que
         nos conducen al misterio.
       </p>
       <hr />

@@ -51,7 +51,7 @@ export const Scene = () => {
         </span>
       </p>
       <p className="article-p">
-        Así este artista comienza el primer capítulo que lleva el mismo título
+        Así, este artista, comienza el primer capítulo que lleva el mismo título
         de su libro “EL PIEDRAZO EN EL ESPEJO” . Este profundo pasaje inicial
         revela la esencia del lenguaje naciendo del ritual-artefacto que despoja
         lo superfluo que sería el yo, lo histórico y des-oculta el acto creador
