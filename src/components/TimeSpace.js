@@ -29,7 +29,7 @@ export const TimeSpace = () => {
       <p className="article-p">
         Imaginemos por un momento que estamos en un tranquilo día de verano,
         mirando las nubes pasar. El tiempo parece fluir de manera constante,
-        como el agua de un río. Y el espacio... bueno, está ahí, sosteniendo
+        como el agua de un río, y el espacio... bueno, está ahí, sosteniendo
         todo lo que vemos. Sin embargo, esta visión tan sencilla comienza a
         desmoronarse cuando le hacemos preguntas más profundas: ¿Es el tiempo
         algo que corre o algo que nosotros percibimos? ¿El espacio está vacío o
