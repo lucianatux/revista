@@ -1,7 +1,6 @@
 import imgArticle from "../assets/img/magicnora.jpg";
 import arrow from "../assets/img/arrow.png";
 import { Link } from "react-router-dom";
-import audioentrevista from "../assets/img/magicnora.wav";
 import audioimg from "../assets/img/audio.png";
 
 export const MagicWorld = () => {
@@ -54,9 +53,7 @@ export const MagicWorld = () => {
           <img className="audio-img" src={audioimg} alt="" />
         </p>
         <button className="audio-btn">
-          <audio className="audiocontrols" controls>
-            <source src={audioentrevista} type="audio/mpeg" />
-          </audio>
+         
         </button>
       </div>
 <br/>
