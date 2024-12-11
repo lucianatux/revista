@@ -121,57 +121,67 @@ export const Interview = () => {
         Entonces no me quise ir a casa. Y nos fuimos caminando por la avenida
         Colón hacia la Cañada para estar más cerca de la manifestación que había
         frente al hospital donde agonizaba Pampillón.
-        <br /><br />
+        <br />
+        <br />
         Fue la sensación más fuerte que tuve en mi vida y que pese a los años
-        pasados la tengo presente como el primer día. <br />La ciudad se había
-        detenido, era pleno centro, pero mientras caminábamos todo lo que se
-        veía eran ventanas cerradas, no circulaban coches ni ómnibus. La avenida
-        Colón era un desierto donde unos pocos locos como nosotros caminábamos
-        casi en puntas de pie. Y de repente nos paramos en una esquina para
-        cruzar y allí sentí más fuerte que nunca ese latido que tenía mucho de
-        miedo y dolor, pero que también era el presagio que esto era el inicio
-        de algo muy grande que venía surgiendo de a poco desde abajo.<br /> Nos fuimos
-        a un bar en la esquina de la Cañada a media cuadra del hospital. Desde
-        allí sentimos el rugido que se produjo cuando anunciaron la muerte de
-        Pampillón. La policía montada cargó contra los cientos de estudiantes
-        que estaban en la espera, que corrieron en todas direcciones. Muchos
-        llegaron al bar en que estábamos y los sentamos en nuestras mesas para
-        que la policía no los llevara. <br /><br />Ahora, cuando veo a esta Córdoba
-        indiferente a los problemas sociales, cuando el ansia de consumo ha
-        enterrado en lo más hondo las ansias de ayudar a formar esa patria
-        grande, libre y justa con que soñaron todos aquellos compañeros que
-        quedaron en el camino, me siento como sobreviviente de un mundo que se
-        evaporó, que ya no está, y que todo aquello por lo que soñaron y
-        lucharon toda esa generación se va diluyendo en el olvido. <br />Sólo quedan
-        como testigos mudos de esos actos heroicos las hermosas tipas de la
-        Cañada que guardan entre su fronda el grito de libertad por el que
-        lucharon tanta gente muy querida que ya no está más. Y en cambio, en
-        aquellos años, ese latido se hizo cada vez más fuerte y valiente como
+        pasados la tengo presente como el primer día. <br />
+        La ciudad se había detenido, era pleno centro, pero mientras caminábamos
+        todo lo que se veía eran ventanas cerradas, no circulaban coches ni
+        ómnibus. La avenida Colón era un desierto donde unos pocos locos como
+        nosotros caminábamos casi en puntas de pie. Y de repente nos paramos en
+        una esquina para cruzar y allí sentí más fuerte que nunca ese latido que
+        tenía mucho de miedo y dolor, pero que también era el presagio que esto
+        era el inicio de algo muy grande que venía surgiendo de a poco desde
+        abajo.
+        <br /> Nos fuimos a un bar en la esquina de la Cañada a media cuadra del
+        hospital. Desde allí sentimos el rugido que se produjo cuando anunciaron
+        la muerte de Pampillón. La policía montada cargó contra los cientos de
+        estudiantes que estaban en la espera, que corrieron en todas
+        direcciones. Muchos llegaron al bar en que estábamos y los sentamos en
+        nuestras mesas para que la policía no los llevara. <br />
+        <br />
+        Ahora, cuando veo a esta Córdoba indiferente a los problemas sociales,
+        cuando el ansia de consumo ha enterrado en lo más hondo las ansias de
+        ayudar a formar esa patria grande, libre y justa con que soñaron todos
+        aquellos compañeros que quedaron en el camino, me siento como
+        sobreviviente de un mundo que se evaporó, que ya no está, y que todo
+        aquello por lo que soñaron y lucharon toda esa generación se va
+        diluyendo en el olvido. <br />
+        Sólo quedan como testigos mudos de esos actos heroicos las hermosas
+        tipas de la Cañada que guardan entre su fronda el grito de libertad por
+        el que lucharon tanta gente muy querida que ya no está más. Y en cambio,
+        en aquellos años, ese latido se hizo cada vez más fuerte y valiente como
         para llegar a gestar el inolvidable Cordobazo y voltear al gobierno
-        militar. <br /><br />Yo quiero creer que ese latido todavía está; quizás las garras
-        del progreso, de los autos de alta gama, de los rascacielos que tapan
-        las sierras, lo hayan debilitado. Pero sueño con un mundo en que vuelva
-        a surgir con toda su potencia para que todos los cordobeses lo volvamos
-        a sentir. Porque solamente de esa forma vamos a rendir un homenaje a
-        todos los seres desconocidos que pusieron su granito de arena para que
-        se pudiera concretar aquello. Quizás abriendo una puerta para esconder a
+        militar. <br />
+        <br />
+        Yo quiero creer que ese latido todavía está; quizás las garras del
+        progreso, de los autos de alta gama, de los rascacielos que tapan las
+        sierras, lo hayan debilitado. Pero sueño con un mundo en que vuelva a
+        surgir con toda su potencia para que todos los cordobeses lo volvamos a
+        sentir. Porque solamente de esa forma vamos a rendir un homenaje a todos
+        los seres desconocidos que pusieron su granito de arena para que se
+        pudiera concretar aquello. Quizás abriendo una puerta para esconder a
         alguien, bares que bajaban sus persianas para proteger a quienes estaban
         adentro. En fin, gente comprometida con la gente soñando con un futuro
-        común y justo. <br /><br />Estos son algunos de los recuerdos de una época en que
-        Córdoba fue el corazón de la república. Por eso latía tan fuerte y me
-        siento orgullosa de haber sido una pequeña parte de aquel sueño de
-        libertad, el que espero que no muera nunca en los corazones de los
-        cordobeses que sienten su latido."
-        
+        común y justo. <br />
+        <br />
+        Estos son algunos de los recuerdos de una época en que Córdoba fue el
+        corazón de la república. Por eso latía tan fuerte y me siento orgullosa
+        de haber sido una pequeña parte de aquel sueño de libertad, el que
+        espero que no muera nunca en los corazones de los cordobeses que sienten
+        su latido."
       </p>
       <p className="text-right article-p">Nora Gómez</p>
 
       <hr />
-      <p className="audio-title">Escuchar fragmento de la entrevista<img className="audio-img" src={audioimg} alt="" /></p>
+      <p className="audio-title">
+        Escuchar fragmento de la entrevista
+        <img className="audio-img" src={audioimg} alt="" />
+      </p>
       <button className="audio-btn">
-    <audio className="audiocontrols" controls>
-  <source src={audioentrevista} type="audio/mpeg"/>
-</audio>
+        <audio className="audiocontrols" controls>
+          <source src={audioentrevista} type="audio/mpeg" />
+        </audio>
       </button>
     </div>
   );
