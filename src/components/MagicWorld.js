@@ -13,6 +13,7 @@ export const MagicWorld = () => {
         </button>
       </Link>
       <h5>Columna "Espacio Integrador" por Glory</h5>
+      <h5>Colaboración Técnica y Producción: Oscar Sosa</h5>
       <br />
       <h3>
         Sobre el Mundo Mágico, el Bosque, los Espíritus (Hadas ,Duendes, Seres
