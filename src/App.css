@@ -378,8 +378,12 @@ span.header-text {
 .tema3 {
   background-image: url("../src/assets/img/body1.jpg");
 }
+
+.tema4{
+  background-image: url("../src/assets/img/magicnora2.jpg");
+}
   
-.tema4 {
+.tema5 {
   background-image: url("../src/assets/img/crossword2.jpg");
 }
   
@@ -451,6 +455,11 @@ span.header-text {
   border-radius: 20px;
   padding: 10px;
 }
+.article-img5{
+  width: 550px;
+  border-radius: 20px;
+  padding: 10px;
+}
 .text-right{
   text-align: right;
 }
@@ -495,6 +504,9 @@ span.header-text {
   .article-img4{
     width: 100px;
     float: right;
+  }
+  .article-img5{
+    width: 400px;
   }
 }
 .exp-int{
@@ -547,6 +559,9 @@ padding: 20px;
   }
   .audiocontrols{
     width: 250px;
+  }
+  .article-img5{
+    width: 300px;
   }
 }
 

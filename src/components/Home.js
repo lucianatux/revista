@@ -37,18 +37,19 @@ export const Home = () => {
           </Link>
         </div>
         <div className="themes col-sm-12 col-md-6 ">
-          <Link to="/crossword">
+          <Link to="/magicworld">
             <div className="card-theme">
               <div className=" theme tema4"></div>
-              <p className="subtit"> Nuevo Juego:</p>
-              <p className="tit">Crucigrama</p>
+              <p className="subtit"> Artículo n° 4:</p>
+              <p className="section-tit">Columna: Espacio Integrador</p>
+              <p className="tit">El Cedazo de Nuestro Mundo Interno</p>
             </div>
           </Link>
         </div>
         <div className="themes col-sm-12 col-md-6 ">
           <Link to="/crossword">
             <div className="card-theme">
-              <div className=" theme tema4"></div>
+              <div className=" theme tema5"></div>
               <p className="subtit"> Nuevo Juego:</p>
               <p className="tit">Crucigrama</p>
             </div>

@@ -26,13 +26,13 @@ export const Body = () => {
         Para llegar a éste diagnóstico es muy probable que hayas pasado por todo tipo
         de estudios médicos, análisis y especialistas médicos, que por descarte
         llegan a decir, es fibromialgia. Lo que tienen en común todos los
-        pacientes es que han pasado por momentos de mucho estrés o exigencia,al
+        pacientes es que han pasado por momentos de mucho estrés o exigencia, al
         punto del desgaste del sistema nervioso que colapsa.
       </p>
       <p className="article-p">
-        El dolor es 24/7. Tendrás días muy malos,de crisis. Tendrás días que el
-        dolor es una molestia constante,pero con la fortuna que podrás
-        levantarte de la cama o el sillón,y ése día lo agradecería con todo el
+        El dolor es 24/7. Tendrás días muy malos, de crisis. Tendrás días que el
+        dolor es una molestia constante, pero con la fortuna que podrás
+        levantarte de la cama o el sillón y ese día lo agradecerás con todo el
         corazón.
       </p>
       <p className="article-p">

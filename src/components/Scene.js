@@ -63,7 +63,7 @@ export const Scene = () => {
           “Se trata de un poder que se manifiesta en el hacer y el percibir, una
           capacidad de expresión de fuerzas originarias que, puestas a operar
           teatralmente, nos conectan a un sentimiento de otredad, de vacío, de
-          plenitud; a una extraña y familiar sensación de ya haber sido, a otro
+          plenitud; a una extraña y familiar sensación de ya haber sido, a otra
           percepción del tiempo, el espacio y la pertenencia.” “… Aquí cuando
           hablamos de poética, hablamos de la vacilación del sentido aparente y
           de la suspensión de su universo de referencia para el advenimiento de
@@ -74,7 +74,7 @@ export const Scene = () => {
        Para este artista, la forma de encarar el acto creativo es ya
         decisivo de un lenguaje y, del que sin duda, las imágenes surgidas lo
         reflejarán. Dependerá de la conciencia de dirección que tenga el agente
-        productivo, dador del impulso a manifestar. Este lenguaje (anterior al
+        productor, dador del impulso a manifestar. Este lenguaje (anterior al
         lenguaje visible de las imágenes) se revela no con facilidad y no
         siempre que se hace una creación. Pompeyo nos orienta en este sentido
         cuando dice:
