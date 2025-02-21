@@ -6,7 +6,7 @@ export const NewMirada = () => {
   return (
     <div>
       <div id="three" className="article-div">
-        <Link to="/">
+        <Link to="/oldeditions">
           <button className="button-arrow">
             <img src={arrow} alt="" className="back-arrow" />
           </button>

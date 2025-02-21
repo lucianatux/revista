@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const TimeSpace = () => {
   return (
     <div id="timespace" className="article-div">
-      <Link to="/">
+      <Link to="/oldeditions">
         <button className="button-arrow">
           <img src={arrow} alt="" className="back-arrow" />
         </button>

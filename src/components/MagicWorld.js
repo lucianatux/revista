@@ -7,7 +7,7 @@ import audioentrevista from "../assets/sound/nora.mp3";
 export const MagicWorld = () => {
   return (
     <div id="magicworld" className="article-div">
-      <Link to="/">
+      <Link to="/oldeditions">
         <button className="button-arrow">
           <img src={arrow} alt="" className="back-arrow" />
         </button>
@@ -20,21 +20,22 @@ export const MagicWorld = () => {
         Mitológicos, Ángeles...) y portales a Mundos Alternos coexistentes.
       </h3>
       <p className="article-p">
-        "En el Umbral de lo desconocido, existe un Mundo Mágico que late con
+        "En el Umbral de lo desconocido existe un Mundo Mágico que late con
         energía y misterio. El Bosque, con su vegetación , sus secretos
         escondidos, es el Portal a este reino encantado. Aquí, los espíritus y
         entidades de la naturaleza se manifiestan en formas y sonidos
         irreconocibles que desafían nuestra comprensión.
         <br />
         <br />
-        Pero El Bosque, no es solo un lugar de encuentro, con lo desconocido.
-        También es un Umbral y/o Altar a otros Mundos , donde las Leyes de la
-        Física y la realidad , se doblan como el Tiempo. En este artículo,
-        contamos una experiencia, algún secreto del bosque y portal que nos
-        llevan a estos mundos mágicos.
-        <br /><br/>
-        Prepárate para un viaje,.... disponte a escuchar relajado y tener tu
-        mente muy suelta ,así podrás irte , y te llevará más allá de lo que
+        Pero El Bosque no es sólo un lugar de encuentro con lo desconocido.
+        También es un Umbral y/o Altar a otros Mundos, donde las leyes de la
+        física y la realidad se doblan como el Tiempo. En este artículo contamos
+        una experiencia, algún secreto del bosque y portal que nos lleva a
+        estos mundos mágicos.
+        <br />
+        <br />
+        Prepárate para un viaje, ... disponte a escuchar relajado/a y tener tu
+        mente muy suelta, así podrás irte, ... y el viaje te llevará más allá de lo que
         crees posible."
         <br />
         <br />
@@ -51,16 +52,16 @@ export const MagicWorld = () => {
       </div>
       <div className="d-flex flex-column justify-content-center align-items-center text-align-center">
         <p className="audio-title fs-5">
-         <br/> Escuchar la entrevista
+          <br /> Escuchar la entrevista
           <img className="audio-img" src={audioimg} alt="" />
         </p>
         <button className="audio-btn">
-        <audio className="audiocontrols" controls>
-          <source src={audioentrevista} type="audio/mpeg" />
-        </audio>
+          <audio className="audiocontrols" controls>
+            <source src={audioentrevista} type="audio/mpeg" />
+          </audio>
         </button>
       </div>
-<br/>
+      <br />
       <p className="article-p">
         <span>
           "...En todo verdadero sabio he visto un niño que corretea en el mundo
@@ -70,13 +71,13 @@ export const MagicWorld = () => {
           la alegría”. Y muy pocas veces he escuchado de su boca la palabra
           “amor”... porque un sabio verdadero nunca jura en vano."
         </span>
-        <br/>
-        (Silo. Humanizar la Tierra. El paisaje Interno. Capítulo Unidad y contradicción).
-
+        <br />
+        (Silo. Humanizar la Tierra. El paisaje Interno. Capítulo Unidad y
+        contradicción).
       </p>
       <p className="article-p">
-      Si querés comentarme o susurrarme tu historia, te invito a hacerlo. 
-      Gloria_Carrizo@outlook.es 
+        Si querés comentarme o susurrarme tu historia, te invito a hacerlo:
+        elojocuantico@yahoo.com
       </p>
       <hr />
     </div>

@@ -777,12 +777,10 @@ padding: 20px;
 }
 
 .old-editions {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+  gap: 20px; /* Espaciado entre elementos */
 }
-
 .old-month-edition {
   margin: 20px;
   padding-top: 20px;
@@ -840,6 +838,7 @@ padding: 20px;
     margin: 10px 0; 
   }
   .old-editions{
+    display: flex;
     flex-direction: column;
   }
   .old-editions-div{
@@ -855,6 +854,9 @@ padding: 20px;
     font-size: medium;
   }
 }
+
+
+
 
 /************ Games Css ************/
 
