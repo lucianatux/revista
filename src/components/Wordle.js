@@ -1,6 +1,6 @@
 export const Wordle = () => {
   return (
-    <div className="wordle-div">
+    <div className="game-div">
 <div style={{ width: "100%", height: "800px", border: "none" }}>
       <iframe
         src="https://lucianatux.github.io/wordle-game/"

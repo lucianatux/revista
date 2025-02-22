@@ -15,10 +15,6 @@ export const Header = () => {
     setExpanded(false);
   };
   
-
-
-
-
   return (
     <div className="header">
       <div className="div-header">

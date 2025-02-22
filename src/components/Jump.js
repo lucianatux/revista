@@ -7,7 +7,7 @@ export const Jump = () => {
       <iframe
         src="https://lucianatux.github.io/bosque/"
         style={{ width: "100%", height: "100%", border: "none" }}
-        title="Wordle"
+        title="Jump"
       />
     </div>
     </div>

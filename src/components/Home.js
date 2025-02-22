@@ -42,7 +42,7 @@ export const Home = () => {
               <div className=" theme tema4"></div>
               <p className="subtit"> Artículo n° 4:</p>
               <p className="section-tit">Columna: Espacio Integrador</p>
-              <p className="tit">El Cedazo de Nuestro Mundo Interno</p>
+              <p className="tit">El Trámite</p>
             </div>
           </Link>
         </div>
@@ -57,7 +57,7 @@ export const Home = () => {
           </Link>
         </div>
         <div className="themes col-sm-12 col-md-6 ">
-          <Link to="/crossword">
+          <Link to="/simon">
             <div className="card-theme">
               <div className=" theme tema5"></div>
               <p className="subtit"> Nuevo Juego:</p>

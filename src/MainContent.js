@@ -23,6 +23,7 @@ import { TimeSpace } from './components/TimeSpace';
 import { Crossword } from './Crossword';
 import { Body } from './components/Body';
 import { MagicWorld } from './components/MagicWorld';
+import { Simon} from './2025components/Simon';
 
 
 function MainContent() {
@@ -58,6 +59,7 @@ function MainContent() {
         <Route path="/crossword" element={<Crossword />} />
         <Route path="/body" element={<Body />} />
         <Route path="/magicworld" element={<MagicWorld />} />
+        <Route path="/simon" element={<Simon />} />
 
 
 
