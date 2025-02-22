@@ -49,7 +49,7 @@ export const Home = () => {
         <div className="themes col-sm-12 col-md-6 ">
           <Link to="/magicworld">
             <div className="card-theme">
-              <div className=" theme tema4"></div>
+              <div className=" theme tema5"></div>
               <p className="subtit"> Artículo n° 5:</p>
               <p className="section-tit">Columna: Cuentos cortos</p>
               <p className="tit">El Misil energético</p>
@@ -59,7 +59,7 @@ export const Home = () => {
         <div className="themes col-sm-12 col-md-6 ">
           <Link to="/simon">
             <div className="card-theme">
-              <div className=" theme tema5"></div>
+              <div className=" theme tema6"></div>
               <p className="subtit"> Nuevo Juego:</p>
               <p className="tit">Simón dice</p>
             </div>

@@ -368,25 +368,28 @@ span.header-text {
 .game-wordle{
   background-image: url("../src/assets/img/wordle2.jpg");
 }*/
-/*
+
 .tema1 {
-  background-image: url("../src/assets/img/teatro2.jpg");
+  background-image: url("../src/assets/feb2025/parsifal1x1light.jpg");
 }
 .tema2 {
-  background-image: url("../src/assets/img/time2.jpg");
+  background-image: url("../src/assets/feb2025/invitacion.jpg");
 }
 
 .tema3 {
-  background-image: url("../src/assets/img/body1.jpg");
+  background-image: url("../src/assets/feb2025/paciente.jpg");
 }
 
 .tema4{
-  background-image: url("../src/assets/img/magicnora2.jpg");
+  background-image: url("../src/assets/feb2025/tramite.jpg");
 }
   
 .tema5 {
-  background-image: url("../src/assets/img/crossword2.jpg");
-}*/
+  background-image: url("../src/assets/feb2025/misil.jpg");
+}
+.tema6{
+  background-image: url("../src/assets/feb2025/simon.jpg");
+}
   
 .titles {
   height: 120px;
@@ -789,12 +792,17 @@ padding: 20px;
   border-radius: 20px;
   background: var(--nineth-color);
 }
+.game-old-editions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .games-edition{
   margin: 20px;
   padding-top: 20px;
   min-width: 300px;
   border-radius: 20px;
-  background: var(--tenth-color);
+  background-color: var(--tenth-color);
 }
 
 .old-articles {
