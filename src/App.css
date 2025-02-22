@@ -344,6 +344,7 @@ span.header-text {
 .section-tit{
   color: var(--sixth-color);
   font-weight: 600;
+  height: 40px;
 }
 .themes {
   display: flex;
@@ -377,7 +378,7 @@ span.header-text {
 }
 
 .tema3 {
-  background-image: url("../src/assets/feb2025/paciente.jpg");
+  background-image: url("../src/assets/feb2025/paciente2.jpg");
 }
 
 .tema4{

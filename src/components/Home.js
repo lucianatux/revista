@@ -7,7 +7,7 @@ export const Home = () => {
       <Phrases />
       <div className="row p-5">
         <div className="themes col-sm-12 col-md-6">
-          <Link to="/scene">
+          <Link to="/music">
             <div className="card-theme">
               <div className=" theme tema1"></div>
               <p className="subtit">Artículo n° 1</p>
@@ -17,7 +17,7 @@ export const Home = () => {
           </Link>
         </div>
         <div className="themes col-sm-12 col-md-6 ">
-          <Link to="/timespace">
+          <Link to="/invitation">
             <div className="card-theme">
               <div className=" theme tema2"></div>
               <p className="subtit"> Artículo n° 2</p>
@@ -27,7 +27,7 @@ export const Home = () => {
           </Link>
         </div>
         <div className="themes col-sm-12 col-md-6">
-          <Link to="/body">
+          <Link to="/paciente">
             <div className="card-theme">
               <div className=" theme tema3"></div>
               <p className="subtit">Artículo n° 3</p>
@@ -37,7 +37,7 @@ export const Home = () => {
           </Link>
         </div>
         <div className="themes col-sm-12 col-md-6 ">
-          <Link to="/magicworld">
+          <Link to="/tramite">
             <div className="card-theme">
               <div className=" theme tema4"></div>
               <p className="subtit"> Artículo n° 4:</p>
@@ -47,7 +47,7 @@ export const Home = () => {
           </Link>
         </div>
         <div className="themes col-sm-12 col-md-6 ">
-          <Link to="/magicworld">
+          <Link to="/misil">
             <div className="card-theme">
               <div className=" theme tema5"></div>
               <p className="subtit"> Artículo n° 5:</p>
@@ -60,7 +60,8 @@ export const Home = () => {
           <Link to="/simon">
             <div className="card-theme">
               <div className=" theme tema6"></div>
-              <p className="subtit"> Nuevo Juego:</p>
+              <p className="subtit"> Sección Recreación</p>
+              <p className="section-tit">Nuevo Juego:</p>
               <p className="tit">Simón dice</p>
             </div>
           </Link>

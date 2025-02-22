@@ -24,7 +24,11 @@ import { Crossword } from './Crossword';
 import { Body } from './components/Body';
 import { MagicWorld } from './components/MagicWorld';
 import { Simon} from './2025components/Simon';
-
+import { Music} from './2025components/Music';
+import {Invitation} from './2025components/Invitation';
+import { Paciente} from './2025components/Paciente';
+import { Tramite } from './2025components/Tramite';
+import { Misil } from './2025components/Misil';
 
 function MainContent() {
   const location = useLocation();
@@ -60,6 +64,17 @@ function MainContent() {
         <Route path="/body" element={<Body />} />
         <Route path="/magicworld" element={<MagicWorld />} />
         <Route path="/simon" element={<Simon />} />
+        <Route path="/music" element={<Music />} />
+        <Route path="/invitation" element={<Invitation />} />
+        <Route path="/paciente" element={<Paciente />} />
+        <Route path="/tramite" element={<Tramite />} />
+        <Route path="/misil" element={<Misil />} />
+
+
+
+
+        
+
 
 
 

@@ -1,8 +1,8 @@
-import img1 from "../assets/feb2025/Las valquirias.png";
+import img1 from "../assets/img/newmirada2.jpg";
 import { Link } from "react-router-dom";
 import arrow from "../assets/img/arrow.png";
 
-export const Music = () => {
+export const Invitation = () => {
   return (
     <div>
       <div className="article-div">
@@ -11,7 +11,7 @@ export const Music = () => {
             <img src={arrow} alt="" className="back-arrow" />
           </button>
         </Link>
-        <h1>Music</h1>
+        <h1>Invitation</h1>
         <h3>subtitulo</h3>
         <p className="article-p">
           <img src={img1} alt="" className="article-img" />

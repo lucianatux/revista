@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const Pictorial = () => {
   return (
-    <div id="poetic" className="article-div">
+    <div id="pictorial" className="article-div">
       <Link to="/oldeditions">
         <button className="button-arrow">
           <img src={arrow} alt="" className="back-arrow" />
