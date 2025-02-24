@@ -146,8 +146,23 @@ export const Phrases = () => {
 "«Sino sabes a dónde vas, cualquier camino te llevará allí.» Lewis Carroll",
 "«La cosa no tenía nada de muy especial, […] pero tampoco le pareció a Alicia que tuviera nada de muy extraño.» Lewis Carroll",
 "«¡Es de… lo más… irritante… -dijo al fin- que una persona no sepa distinguir una corbata de un cinturón! - Sé que es una terrible ignorancia por mi parte - dijo Alicia en un tono tan humilde que Tentetieso se aplacó.» Lewis Carroll",
-"«pues a esta curiosa criatura le gustaba mucho pretender que era dos personas a la vez.» Lewis Carroll"
-  ];
+"«pues a esta curiosa criatura le gustaba mucho pretender que era dos personas a la vez.» Lewis Carroll",
+ "«Ir contra la evolución de las cosas es ir contra uno mismo» Silo",
+ "«Cuando fuerzas algo hacia un fin produces lo contrario» Silo",
+ "«No te opongas a una gran fuerza. Retrocede hasta que aquella se debilite, luego avanza con resolución.» Silo",
+ "«Las cosas están bien cuando marchan en conjunto, no aisladamente» Silo",
+ "«Si para ti están bien el día y la noche, el verano y el invierno, haz superado las contradicciones.» Silo",
+ "«Si persigues el placer, te encadenas al sufrimiento. Pero en tanto no perjudiques tu salud, goza sin inhibición cuando la oportunidad se presente.» Silo",
+ "«Si persigues un fin te encadenas. Si todo lo que haces lo realizas como si fuera un fin en si mismo, te liberas» Silo",
+
+ "«Harás desaparecer tus conflictos cuando los entiendas en su última raíz; no cuando quieras resolverlos.» Silo",
+ "«Cuando perjudicas a los demás quedas encadenado. Pero, si no perjudicas a otros, puedes hacer cuanto quieras con libertad.» Silo",
+ "«Cuando tratas a los demás como quieres que te traten, te liberas.» Silo",
+ "«No importa en que bando te hayan puesto los acontecimientos. Lo importante es que comprendas que tu no has elegido ningún bando.» Silo",
+ "«Los actos contradictorios o unitivos se acumulan en ti. Si repites tus actos de unidad interna, ya nada podrá detenerte.» Silo"
+ 
+
+];
   const [selectedPhrase, setSelectedPhrase] = useState("");
   const [isAnimating, setIsAnimating] = useState(false); 
   

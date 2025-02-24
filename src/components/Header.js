@@ -40,11 +40,11 @@ export const Header = () => {
               </Nav.Link>
               <Dropdown>
                 <Dropdown.Toggle className="tabs" variant="dark" id="dropdown-basic">
-                  Acerca de nosotros
+                  Info
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
                   <Dropdown.Item as={Link} to="/aboutus" onClick={handleNavLinkClick}>
-                    Nuestro propósito
+                    Acerca de nosotros
                   </Dropdown.Item>
                   <Dropdown.Item as={Link} to="/workshops" onClick={handleNavLinkClick}>
                     Talleres
