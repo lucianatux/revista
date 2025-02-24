@@ -1,22 +1,43 @@
 import { Link } from "react-router-dom";
-import React, { useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import img1 from "../assets/feb2025/Las valquirias.png";
 import img2 from "../assets/feb2025/Parsifal.png";
 import arrow from "../assets/img/arrow.png";
-import wagnerMusic from "../assets/sound/lacabalgatadelasvalkirias.mp3"; 
+import audioFile from "../assets/sound/lacabalgatadelasvalkirias.mp3"; 
 
 
 
 export const Music = () => {
+  const audioRef = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(true); // Iniciar en reproducción
+
   useEffect(() => {
-    const audio = new Audio(wagnerMusic);
-    audio.play().catch((error) => console.log("Autoplay blocked:", error)); // Evita errores en navegadores con restricciones
+    // Inicializar audio solo una vez
+    audioRef.current = new Audio(audioFile);
+    audioRef.current.loop = true; // Para que se repita si es necesario
+    audioRef.current.play().catch((error) => console.error("Error al reproducir:", error));
 
     return () => {
-      audio.pause();
-      audio.currentTime = 0; // Reinicia el audio al salir de la página
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0; // Reiniciar al salir
     };
   }, []);
+
+  useEffect(() => {
+    if (audioRef.current) {
+      if (isPlaying) {
+        audioRef.current.play().catch((error) => console.error("Error al reproducir:", error));
+      } else {
+        audioRef.current.pause();
+      }
+    }
+  }, [isPlaying]);
+
+  const togglePlayPause = () => {
+    setIsPlaying((prev) => !prev); // Alterna entre reproducir y pausar
+  };
+
+  
   return (
     <div className="article-div">
       <Link to="/">
@@ -24,12 +45,15 @@ export const Music = () => {
           <img src={arrow} alt="" className="back-arrow" />
         </button>
       </Link>
+      <button onClick={togglePlayPause} className="wagner-btn">
+        {isPlaying ? "Pausar música" : "Reproducir música"}
+      </button>
       <h4>Columna "El lenguaje de las artes" por Mariano Gentile</h4>
       <h1>El Fenómeno Musical</h1>
 
       <p className="article-p">
         La historia de la música occidental llega a su mayor desarrollo en la
-        composición de orquestas donde se entrelazan, armonizan y juegan la
+        composición orquestal donde se entrelazan, armonizan y juegan la
         mayor cantidad de instrumentos musicales. Este tiempo es conocido como
         la edad de oro de la música sinfónica y por supuesto tiene a sus genios
         que aún hoy nos deslumbran con sus grandes creaciones: Mozart, Bach,

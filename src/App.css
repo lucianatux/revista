@@ -540,7 +540,11 @@ span.header-text {
     width: 15px;
   }
 }
-
+.wagner-btn{
+  padding: 10px;
+  background-color: var(--first-color);
+  border-radius: 10px;
+}
 .audio-title{
   text-align: center;
 padding: 20px;
