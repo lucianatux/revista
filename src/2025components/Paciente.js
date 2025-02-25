@@ -12,7 +12,9 @@ export const Paciente = () => {
         </button>
       </Link>
       <h4>Columna "Tu cuerpo es tu mejor amigo"</h4>
-      <img src={img1} alt="" className="article-img5" />
+      <div className="d-flex justify-content-center align-items-center">
+        <img src={img1} alt="" className="article-img5" />
+      </div>
 
       <p className="article-p">
         En este cuadro vemos sólo algunos síntomas de la fibromialgia.
@@ -26,13 +28,12 @@ export const Paciente = () => {
       <h2>Relato de una paciente con fibromialgia</h2>
       <br />
       <div className="d-flex flex-column justify-content-center align-items-center ">
-      <img src={img2} alt="" className="article-img2" />
-      <p>El truco está en la aceptación.</p>
+        <img src={img2} alt="" className="article-img2" />
+        <p>El truco está en la aceptación.</p>
       </div>
-      
 
       <p className="article-p">
-      «Años... sufriendo dolores y una cantidad de cambios sin razón o motivo
+        «Años... sufriendo dolores y una cantidad de cambios sin razón o motivo
         aparente... hasta que llega el momento en que te dicen que tienes
         fibromialgia... En ese instante, surgen dos sentimientos: el alivio de
         saber por fin qué tienes y la incertidumbre de preguntarte: "¿Y ahora,

@@ -58,6 +58,9 @@ span {
 .invert{
   filter: invert(100%);
 }
+.small{
+  font-size: 14px;
+}
 
 /************ Header Css ************/
 .header {

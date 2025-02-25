@@ -57,7 +57,7 @@ export const Tramite = () => {
         esperanza. Nos pusimos a hablar y, en medio de la charla, me contó que
         trabajaba cuidando a una anciana de 98 años. Su preocupación era que los
         hijos decidieron internarla en un geriátrico, sabía que eso significaría
-        su fin. La anciana no quería ir, y no quería dejarla de cuidar.
+        su fin. La anciana no quería ir y ella no quería dejar de cuidarla.
         <br />
         <br />
         Me conmovió su dilema. Pensé en la anciana y en cómo me sentiría en su
