@@ -29,15 +29,15 @@ export const Aboutus = () => {
         <span className="item-title">
           Conciencia Individual y Colectiva:{" "}
         </span>{" "}
-        Fomentamos la autoobservación, la conciencia de
-        uno mismo y una conciencia colectiva para mejorar las relaciones
-        humanas.
+        Fomentamos la autoobservación, la conciencia de uno mismo y una
+        conciencia colectiva para mejorar las relaciones humanas.
         <br />
         <br />
         <span className="item-title">Derechos Humanos: </span> Defendemos la
         igualdad de género y la inclusión sin discriminación.
         <br />
         <br />
+        <hr />
         <h3>Valores y Sociedad</h3>
         <span className="item-title">
           Reevaluación de los Valores Centrales:
@@ -66,6 +66,7 @@ export const Aboutus = () => {
         perspectivas, fomentando una sociedad abierta y tolerante.
         <br />
         <br />
+        <hr />
         <h3>Ciencia, Tecnología y Cultura</h3>
         <span className="item-title">
           Innovación y Ciencia Responsable:
@@ -80,16 +81,15 @@ export const Aboutus = () => {
         <br />
         <br />
         <br />
-        <br />
+        <hr />
         Por un Futuro Compartido: Mediante nuestra revista te invitamos a
         reflexionar, a aprender y a actuar en conjunto por un mundo mejor.
       </p>{" "}
       <br />
       <br />
-      <br />
       <p>
         Para sumarte a la creación de contenido de la revista digital "El ojo
-        cuántico" escríbemos al e-mail: elojocuantico@yahoo.com{" "}
+        cuántico" escríbenos al e-mail: elojocuantico@yahoo.com{" "}
       </p>
     </div>
   );

@@ -82,7 +82,7 @@ export const Invitation = () => {
           ...Elegí tu área (podés
           seleccionar más de una)
         </h3>
-
+        <br/><br/>
         <form
           className="mt-4"
           onSubmit={(e) => {
@@ -93,7 +93,7 @@ export const Invitation = () => {
           <div className="row">
             {/* Videojuegos */}
             <div className="col-md-4">
-              <h5>🎮 Videojuegos</h5>
+              <h3>🎮 Videojuegos</h3>
               <div className="form-check mb-2">
                 <input
                   className="form-check-input"
@@ -136,11 +136,11 @@ export const Invitation = () => {
                   💻 Programación
                 </label>
               </div>
+              <br/><br/>
             </div>
-
             {/* Juegos de Mesa */}
             <div className="col-md-4">
-              <h5>🃏 Juegos de Mesa</h5>
+              <h3>🎲 Juegos de Mesa</h3>
               <div className="form-check mb-2">
                 <input
                   className="form-check-input"
@@ -164,7 +164,7 @@ export const Invitation = () => {
                   onChange={handleChange}
                 />
                 <label className="form-check-label" htmlFor="diseno-mesa">
-                  🎮 Diseño de Juegos
+                ✏️ Diseño de Juegos
                 </label>
               </div>
               <div className="form-check mb-2">
@@ -177,14 +177,14 @@ export const Invitation = () => {
                   onChange={handleChange}
                 />
                 <label className="form-check-label" htmlFor="prototipado">
-                  ✂️ Prototipado
+                🃏 Prototipado
                 </label>
               </div>
+              <br/><br/>
             </div>
-
             {/* Juegos en Vivo */}
             <div className="col-md-4">
-              <h5>🎭 Juegos en Vivo</h5>
+              <h3>🎭 Juegos en Vivo</h3>
               <div className="form-check mb-2">
                 <input
                   className="form-check-input"
@@ -208,7 +208,7 @@ export const Invitation = () => {
                   onChange={handleChange}
                 />
                 <label className="form-check-label" htmlFor="escenografia">
-                  🎨 Escenografía
+                🏛️ Escenografía
                 </label>
               </div>
               <div className="form-check mb-2">
@@ -224,6 +224,7 @@ export const Invitation = () => {
                   📝 Guión
                 </label>
               </div>
+              <br/><br/>
             </div>
           </div>
 
@@ -256,6 +257,9 @@ export const Invitation = () => {
             </button>
           </div>
         </form>
+        <p className="article-p">
+          
+        </p>
       </div>
     </div>
   );

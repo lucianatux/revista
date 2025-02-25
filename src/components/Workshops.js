@@ -33,7 +33,8 @@ export const Workshops = () => {
             3512458193 Mariano
           </p>
         </div>
-        <div className="workshop-item">
+        {/* 
+         <div className="workshop-item">
           <img src={ws2} alt="" />
           Taller de Circo
           <p>
@@ -57,18 +58,16 @@ export const Workshops = () => {
             3512458193 Mariano
           </p>
         </div>
+        */}
+       
         <div className="workshop-item">
           <img src={ws3} alt="" />
           Taller de VideoRodaje
           <p>
             Para jóvenes y adultos.
             <br />
-            Viernes 18 a 19:30 hs.
             <br />
-            <br />
-            Centro Vecinal Yofre Sur:
-            <br />
-            Severo Vacaro 1302.
+            En El Ojo Cuántico: P.L.Monti 4428.
             <br />
             <br /> Para mas info <br />
             <a
@@ -107,7 +106,7 @@ export const Workshops = () => {
         </div>
         <div className="workshop-item">
           <img src={ws5} alt="" />
-          Taller de Computación
+          Taller de Informática
           <p>
             Para jóvenes y adultos.
             <br />
