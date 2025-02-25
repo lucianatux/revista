@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c4d5ecc2.css",
-    "main.js": "/static/js/main.ea1326e0.js",
+    "main.js": "/static/js/main.0cab987a.js",
     "static/js/453.ea4051ea.chunk.js": "/static/js/453.ea4051ea.chunk.js",
     "static/media/nora.mp3": "/static/media/nora.1c6955d6529fd45df64e.mp3",
     "static/media/noraentrevista.mp3": "/static/media/noraentrevista.dd61fbbd426be4a89c81.mp3",
@@ -75,11 +75,11 @@
     "static/media/nav-icon5.svg": "/static/media/nav-icon5.5925320ec6423816272dec79bd272252.svg",
     "static/media/nav-icon4.svg": "/static/media/nav-icon4.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.c4d5ecc2.css.map": "/static/css/main.c4d5ecc2.css.map",
-    "main.ea1326e0.js.map": "/static/js/main.ea1326e0.js.map",
+    "main.0cab987a.js.map": "/static/js/main.0cab987a.js.map",
     "453.ea4051ea.chunk.js.map": "/static/js/453.ea4051ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4d5ecc2.css",
-    "static/js/main.ea1326e0.js"
+    "static/js/main.0cab987a.js"
   ]
 }
