@@ -257,10 +257,12 @@ export const Invitation = () => {
             </button>
           </div>
         </form>
-        <p className="article-p">
-          
+        <hr/><br/>
+        <p>
+        También podés contactarnos al 3512309375 (mensaje whatsapp)  o escribirnos a equipopretasia@yahoo.com
         </p>
       </div>
+     
     </div>
   );
 };
